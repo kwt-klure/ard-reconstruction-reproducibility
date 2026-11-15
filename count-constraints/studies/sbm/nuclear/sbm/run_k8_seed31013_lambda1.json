@@ -1,0 +1,43 @@
+{
+  "density": "sbm",
+  "k": 8,
+  "seed": 31013,
+  "status": "converged",
+  "penalty": 1.0,
+  "input_sha256": "0922fcc3af2c1fbdfceb4da022540c8ba15f5fe4cd187e3a39fe68db2394677e",
+  "npz_sha256": "1517277550b82a597d4b15d7b7e06223dc3c82b0dc4779580961e803dc866f5f",
+  "early": {
+    "iterations": 358,
+    "converged": true,
+    "primal_residual": 9.890932560759516e-07,
+    "dual_residual": 3.148871720417883e-07,
+    "objective": 40.2675018650067
+  },
+  "final": {
+    "iterations": 461,
+    "converged": true,
+    "primal_residual": 9.84842855032529e-08,
+    "dual_residual": 3.369478377690218e-08,
+    "objective": 40.26750186036329
+  },
+  "rho_events": [
+    {
+      "after_iteration": 225,
+      "old_rho": 2.0,
+      "new_rho": 4.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 1.3758934072937485e-05,
+      "dual_residual": 5.617034839755764e-07
+    },
+    {
+      "after_iteration": 275,
+      "old_rho": 4.0,
+      "new_rho": 8.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 6.938973582514444e-06,
+      "dual_residual": 6.3156323956359e-07
+    }
+  ],
+  "initial_rho": 2.0,
+  "final_rho": 8.0
+}

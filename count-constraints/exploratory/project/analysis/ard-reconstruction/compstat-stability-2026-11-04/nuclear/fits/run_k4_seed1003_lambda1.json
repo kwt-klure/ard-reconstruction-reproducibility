@@ -1,0 +1,56 @@
+{
+  "k": 4,
+  "seed": 1003,
+  "penalty": 1.0,
+  "filename": "run_k4_seed1003_lambda1.npz",
+  "source_input_sha256": "d57654555ba0fc84224504989a46695595923ece9d0899352b775e15a6b4c8b9",
+  "source_immutable_method_sha256": "8466b719ed4f399914606a97dcab8bf1542942615850e96eb0f923d0f3ac4849",
+  "solver_sha256": "a5ebd1a2aef6e8a9112251aa993fc5189d91a9d94667a72dda16a4b83d971dbd",
+  "contract_sha256": "866010ce43189bb62cd33a76ae5044fc84e62331ac99f49f77dab12ed91a83be",
+  "started_utc": "2026-11-04T02:51:51.804325+00:00",
+  "early": {
+    "iterations": 5675,
+    "converged": true,
+    "primal_residual": 9.997285915238698e-07,
+    "dual_residual": 3.647307274048885e-09,
+    "objective": 18.172017785325625
+  },
+  "final": {
+    "iterations": 13576,
+    "converged": true,
+    "primal_residual": 9.998937308675419e-08,
+    "dual_residual": 1.0592084796105369e-10,
+    "objective": 18.172017763660293
+  },
+  "status": "converged",
+  "matrix_change": {
+    "rms": 3.878745402620947e-08,
+    "max_abs": 1.9424080877072925e-07
+  },
+  "early_metrics": {
+    "auc": 0.8865769029329609,
+    "probability_rmse": 0.1266011076463362,
+    "ard_rmse": 0.20486461004423703,
+    "within_u_auc": 0.6638118315508021,
+    "zero_adjusted_auc": 0.9121966655027933,
+    "u_edges": 64,
+    "u_nonedges": 187
+  },
+  "final_metrics": {
+    "auc": 0.8866314594972067,
+    "probability_rmse": 0.12660110765459462,
+    "ard_rmse": 0.20486462271574127,
+    "within_u_auc": 0.6640207219251337,
+    "zero_adjusted_auc": 0.9122512220670391,
+    "u_edges": 64,
+    "u_nonedges": 187
+  },
+  "original_early_comparison": {
+    "array_equal": true,
+    "rms": 0.0,
+    "max_abs": 0.0
+  },
+  "seconds": 3.0835089170141146,
+  "finished_utc": "2026-11-04T02:51:54.887845+00:00",
+  "npz_sha256": "7e8caf64d9942ba32a41a6cf61797b73eb34132d54cda2d09c72f63c5be23948"
+}

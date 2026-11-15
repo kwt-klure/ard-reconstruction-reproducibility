@@ -1,0 +1,51 @@
+{
+  "observations": "Same saved Y,B; all conditional scores use only these and saved fitted point estimates; true P and hidden A reserved for oracle/evaluation.",
+  "scope": {
+    "n": 40,
+    "k": 8,
+    "cohorts": {
+      "exploratory": 40,
+      "fresh_baseline": 40,
+      "fresh_d15": 40,
+      "fresh_d25": 40,
+      "sbm": 40
+    },
+    "fits": [
+      "Circular_saved_mean",
+      "Nuclear_lambda0.25",
+      "Nuclear_lambda1",
+      "Nuclear_lambda4"
+    ],
+    "all_saved_fits_retained": true
+  },
+  "construction": {
+    "law": "q(a) proportional to 1[a in F(Y,B)] exp(sum_(i<j) a_ij logit(Ptilde_ij)); exact block support enumeration; stable log-shift weights",
+    "circular": "Condition on the saved four-chain mean probability matrix, NOT mean of draw-wise conditional marginals; this is a plug-in scoring rule, not a calibrated Bayesian posterior.",
+    "nuclear": "Symmetric saved constrained output; off-diagonal clipping to [epsilon,1-epsilon], diagonal remains zero. Do not refit.",
+    "epsilon_primary": 1e-06,
+    "epsilon_sensitivity": [
+      0.0001,
+      1e-08
+    ],
+    "no_selection": "Report all fixed penalties and all epsilon comparisons. Do not choose based on outcomes.",
+    "boundary_diagnostics": "counts/min/max off-diagonal fitted values; clipped fractions by method/cohort/epsilon, especially on V; quantify changes in conditional scores and metrics",
+    "numerical_ranking": "Compute present and absent weighted masses separately on exact V; retain finite log-marginal-odds for stable ordering when q rounds to 0/1. Do not alter exact support or force nextafter interior probabilities."
+  },
+  "evaluation": {
+    "primary": "AUC on the SAME original unresolved V; paired differences plugin-minus-raw, plugin-minus-uniform, oracle-minus-plugin",
+    "secondary": [
+      "realized Brier on V",
+      "conditional excess Brier on V",
+      "raw full-pair AUC",
+      "max absolute QB-Y",
+      "score changes across clipping epsilons",
+      "clipping-only matrix vs raw fit and conditional score, separating clipping from conditioning",
+      "stable log marginal odds ranking when probabilities round to float64 endpoints; report agreement with probability ranking and tolerance-based rankings"
+    ],
+    "units": "40 graph replicates per cohort; density settings paired by saved replicate blocks; do not pool cohorts.",
+    "mcse": "sample SD/sqrt(40), paired differences formed within graph",
+    "ties": "Primary exact numerical ties, half credit; existing corrected evaluator convention; also 1e-12 and 1e-10 tie sensitivity",
+    "independence": "Original fresh graphs independent of exploratory graphs; this added plug-in analysis is post hoc to those existing outcomes, not a new independent confirmation."
+  },
+  "readout_correction": "The primary AUC ranks float64 marginal probabilities, giving half credit for exact ties. The separate log marginal odds are retained for diagnostic comparisons."
+}

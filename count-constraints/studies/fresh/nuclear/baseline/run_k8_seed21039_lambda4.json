@@ -1,0 +1,67 @@
+{
+  "density": "baseline",
+  "k": 8,
+  "seed": 21039,
+  "status": "converged",
+  "penalty": 4.0,
+  "input_sha256": "b41f48c1e62a5c1ab6195e6525088bbb86db6010d6085b8e696856a42b4aaa25",
+  "npz_sha256": "5e952d2912cc0a537ec627bf8fde03faa57af4ff909c19da28aadbe2abbb2c33",
+  "early": {
+    "iterations": 10000,
+    "converged": false,
+    "primal_residual": 1.8123697035869435e-06,
+    "dual_residual": 2.1179081581398446e-07,
+    "objective": 59.02304867887169
+  },
+  "final": {
+    "iterations": 12274,
+    "converged": true,
+    "primal_residual": 9.999749207462988e-08,
+    "dual_residual": 2.3046464404462185e-08,
+    "objective": 59.02304758001255
+  },
+  "rho_events": [
+    {
+      "after_iteration": 650,
+      "old_rho": 2.0,
+      "new_rho": 4.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 0.0007671986207339207,
+      "dual_residual": 7.491375934890685e-05
+    },
+    {
+      "after_iteration": 8175,
+      "old_rho": 4.0,
+      "new_rho": 8.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 5.4481359910088636e-06,
+      "dual_residual": 5.421150215323209e-07
+    },
+    {
+      "after_iteration": 10200,
+      "old_rho": 8.0,
+      "new_rho": 16.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 1.6585113651292061e-06,
+      "dual_residual": 1.6451734421181723e-07
+    },
+    {
+      "after_iteration": 11050,
+      "old_rho": 16.0,
+      "new_rho": 32.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 8.573014156315694e-07,
+      "dual_residual": 8.572812156213086e-08
+    },
+    {
+      "after_iteration": 11725,
+      "old_rho": 32.0,
+      "new_rho": 64.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 3.5687609071488274e-07,
+      "dual_residual": 3.5508312144503526e-08
+    }
+  ],
+  "initial_rho": 2.0,
+  "final_rho": 64.0
+}

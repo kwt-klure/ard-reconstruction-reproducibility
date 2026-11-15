@@ -1,0 +1,75 @@
+{
+  "density": "d25",
+  "k": 4,
+  "seed": 21035,
+  "status": "converged",
+  "penalty": 4.0,
+  "input_sha256": "108f981faf81b72423c800e06a9d9a93cffe345ac1f6f2c58466f03c2686e9b4",
+  "npz_sha256": "78c4e9d50761d8f7afef6194dafb75828bc6e11eb022e130616ec22dbe152200",
+  "early": {
+    "iterations": 10000,
+    "converged": false,
+    "primal_residual": 6.217117421740921e-06,
+    "dual_residual": 1.940462330312607e-05,
+    "objective": 102.59498819097834
+  },
+  "final": {
+    "iterations": 13154,
+    "converged": true,
+    "primal_residual": 9.987199309330215e-08,
+    "dual_residual": 3.690073713544819e-08,
+    "objective": 102.59490427326095
+  },
+  "rho_events": [
+    {
+      "after_iteration": 3025,
+      "old_rho": 2.0,
+      "new_rho": 1.0,
+      "dual_rescale": 2.0,
+      "primal_residual": 1.0825502044240067e-05,
+      "dual_residual": 0.00011054047343110145
+    },
+    {
+      "after_iteration": 3300,
+      "old_rho": 1.0,
+      "new_rho": 0.5,
+      "dual_rescale": 2.0,
+      "primal_residual": 8.382876265142105e-06,
+      "dual_residual": 8.413082810307476e-05
+    },
+    {
+      "after_iteration": 5650,
+      "old_rho": 0.5,
+      "new_rho": 0.25,
+      "dual_rescale": 2.0,
+      "primal_residual": 2.0651702901624696e-06,
+      "dual_residual": 2.097438706726229e-05
+    },
+    {
+      "after_iteration": 11275,
+      "old_rho": 0.25,
+      "new_rho": 0.5,
+      "dual_rescale": 0.5,
+      "primal_residual": 5.320012645349119e-06,
+      "dual_residual": 5.158120217360798e-07
+    },
+    {
+      "after_iteration": 11300,
+      "old_rho": 0.5,
+      "new_rho": 1.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 5.2321897335809956e-06,
+      "dual_residual": 4.856659265673085e-07
+    },
+    {
+      "after_iteration": 11475,
+      "old_rho": 1.0,
+      "new_rho": 2.0,
+      "dual_rescale": 0.5,
+      "primal_residual": 4.258947867232423e-06,
+      "dual_residual": 4.2451543525054255e-07
+    }
+  ],
+  "initial_rho": 2.0,
+  "final_rho": 2.0
+}

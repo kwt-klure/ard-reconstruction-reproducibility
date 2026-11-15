@@ -1,0 +1,885 @@
+{
+  "status": "complete",
+  "corrected_results_sha256": "8153bed4b81541f1e3a5d133a1bd0efa51a717342904a9fa71ae89eaa13e5491",
+  "n_cases": 200,
+  "n_fitted_matrices": 800,
+  "n_plugin_matrices": 2000,
+  "n_probability_matrices_with_comparators": 5000,
+  "original_conditional_comparison_seconds": 14.767406707978807,
+  "correction_reused_every_matrix": true,
+  "correction_recomputed_conditional_weights": false,
+  "epsilon_sensitivity_maxima": {
+    "auc_V": {
+      "cohort": "fresh_baseline",
+      "left": "Q_plugin_Nuclear_lambda0.25_eps0.0001",
+      "right": "Q_plugin_Nuclear_lambda0.25_eps1e-06",
+      "metric": "auc_V",
+      "mean": -1.5527950310559312e-05,
+      "mcse": 1.5527950310559312e-05,
+      "n_valid": 40
+    },
+    "brier_A_V": {
+      "cohort": "fresh_d25",
+      "left": "Q_plugin_Nuclear_lambda0.25_eps0.0001",
+      "right": "Q_plugin_Nuclear_lambda0.25_eps1e-06",
+      "metric": "brier_A_V",
+      "mean": -1.0620001314846916e-06,
+      "mcse": 1.1720116024775529e-07,
+      "n_valid": 40
+    },
+    "conditional_excess_brier_V": {
+      "cohort": "fresh_d25",
+      "left": "Q_plugin_Nuclear_lambda0.25_eps0.0001",
+      "right": "Q_plugin_Nuclear_lambda0.25_eps1e-06",
+      "metric": "conditional_excess_brier_V",
+      "mean": -1.0210930167117022e-06,
+      "mcse": 9.00144904677013e-08,
+      "n_valid": 40
+    }
+  },
+  "clipping_only_maxima": {
+    "auc_V": {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda0.25_eps0.0001",
+      "right": "Nuclear_lambda0.25",
+      "metric": "auc_V",
+      "mean": -1.4084189652069367e-06,
+      "mcse": 1.4084189652069367e-06,
+      "n_valid": 40
+    },
+    "brier_A_V": {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda0.25_eps0.0001",
+      "right": "Nuclear_lambda0.25",
+      "metric": "brier_A_V",
+      "mean": -4.413618543155917e-07,
+      "mcse": 7.05966842033233e-08,
+      "n_valid": 40
+    },
+    "conditional_excess_brier_V": {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda0.25_eps0.0001",
+      "right": "Nuclear_lambda0.25",
+      "metric": "conditional_excess_brier_V",
+      "mean": -5.134897789050089e-07,
+      "mcse": 4.4267952085565496e-08,
+      "n_valid": 40
+    }
+  },
+  "clipping_only_auc_rows": [
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-06",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda0.25_eps0.0001",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-08",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda1_eps1e-06",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda1_eps0.0001",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda1_eps1e-08",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda4_eps1e-06",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda4_eps0.0001",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "exploratory",
+      "left": "Clipped_Nuclear_lambda4_eps1e-08",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-06",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda0.25_eps0.0001",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-08",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda1_eps1e-06",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda1_eps0.0001",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda1_eps1e-08",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda4_eps1e-06",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda4_eps0.0001",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_baseline",
+      "left": "Clipped_Nuclear_lambda4_eps1e-08",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-06",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda0.25_eps0.0001",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-08",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda1_eps1e-06",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda1_eps0.0001",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda1_eps1e-08",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda4_eps1e-06",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda4_eps0.0001",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d15",
+      "left": "Clipped_Nuclear_lambda4_eps1e-08",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-06",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda0.25_eps0.0001",
+      "right": "Nuclear_lambda0.25",
+      "mean": -1.4084189652069367e-06,
+      "mcse": 1.4084189652069367e-06,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-08",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda1_eps1e-06",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda1_eps0.0001",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda1_eps1e-08",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda4_eps1e-06",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda4_eps0.0001",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "fresh_d25",
+      "left": "Clipped_Nuclear_lambda4_eps1e-08",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-06",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda0.25_eps0.0001",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda0.25_eps1e-08",
+      "right": "Nuclear_lambda0.25",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda1_eps1e-06",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda1_eps0.0001",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda1_eps1e-08",
+      "right": "Nuclear_lambda1",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda4_eps1e-06",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda4_eps0.0001",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    },
+    {
+      "cohort": "sbm",
+      "left": "Clipped_Nuclear_lambda4_eps1e-08",
+      "right": "Nuclear_lambda4",
+      "mean": 0.0,
+      "mcse": 0.0,
+      "n_valid": 40
+    }
+  ],
+  "clipping_fractions": [
+    {
+      "cohort": "exploratory",
+      "penalty": 0.25,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.4851282051282052,
+      "total_clipped_V": 6,
+      "mean_clipped_fraction_V": 0.0014956492870317035,
+      "max_clipped_fraction_V": 0.025
+    },
+    {
+      "cohort": "exploratory",
+      "penalty": 0.25,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.48576923076923073,
+      "total_clipped_V": 6,
+      "mean_clipped_fraction_V": 0.0014956492870317035,
+      "max_clipped_fraction_V": 0.025
+    },
+    {
+      "cohort": "exploratory",
+      "penalty": 0.25,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.4851282051282052,
+      "total_clipped_V": 6,
+      "mean_clipped_fraction_V": 0.0014956492870317035,
+      "max_clipped_fraction_V": 0.025
+    },
+    {
+      "cohort": "exploratory",
+      "penalty": 1,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.34073717948717946,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "exploratory",
+      "penalty": 1,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.3416987179487179,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "exploratory",
+      "penalty": 1,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.3407051282051282,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "exploratory",
+      "penalty": 4,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.04522435897435897,
+      "total_clipped_V": 1,
+      "mean_clipped_fraction_V": 0.0003289473684210526,
+      "max_clipped_fraction_V": 0.013157894736842105
+    },
+    {
+      "cohort": "exploratory",
+      "penalty": 4,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.04605769230769231,
+      "total_clipped_V": 1,
+      "mean_clipped_fraction_V": 0.0003289473684210526,
+      "max_clipped_fraction_V": 0.013157894736842105
+    },
+    {
+      "cohort": "exploratory",
+      "penalty": 4,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.045192307692307684,
+      "total_clipped_V": 1,
+      "mean_clipped_fraction_V": 0.0003289473684210526,
+      "max_clipped_fraction_V": 0.013157894736842105
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 0.25,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.4865064102564102,
+      "total_clipped_V": 9,
+      "mean_clipped_fraction_V": 0.002120825996806389,
+      "max_clipped_fraction_V": 0.024691358024691357
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 0.25,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.487051282051282,
+      "total_clipped_V": 9,
+      "mean_clipped_fraction_V": 0.002120825996806389,
+      "max_clipped_fraction_V": 0.024691358024691357
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 0.25,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.4865064102564102,
+      "total_clipped_V": 9,
+      "mean_clipped_fraction_V": 0.002120825996806389,
+      "max_clipped_fraction_V": 0.024691358024691357
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 1,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.3385576923076924,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 1,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.33961538461538465,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 1,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.3385576923076924,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 4,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.04807692307692308,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 4,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.04913461538461538,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "fresh_baseline",
+      "penalty": 4,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.04807692307692308,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 0.25,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.39993589743589747,
+      "total_clipped_V": 75,
+      "mean_clipped_fraction_V": 0.00795523476432756,
+      "max_clipped_fraction_V": 0.0335195530726257
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 0.25,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.4000961538461539,
+      "total_clipped_V": 75,
+      "mean_clipped_fraction_V": 0.00795523476432756,
+      "max_clipped_fraction_V": 0.0335195530726257
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 0.25,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.39993589743589747,
+      "total_clipped_V": 75,
+      "mean_clipped_fraction_V": 0.00795523476432756,
+      "max_clipped_fraction_V": 0.0335195530726257
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 1,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.2514102564102564,
+      "total_clipped_V": 16,
+      "mean_clipped_fraction_V": 0.0017086689394474961,
+      "max_clipped_fraction_V": 0.01675977653631285
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 1,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.2515705128205128,
+      "total_clipped_V": 16,
+      "mean_clipped_fraction_V": 0.0017086689394474961,
+      "max_clipped_fraction_V": 0.01675977653631285
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 1,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.2514102564102564,
+      "total_clipped_V": 16,
+      "mean_clipped_fraction_V": 0.0017086689394474961,
+      "max_clipped_fraction_V": 0.01675977653631285
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 4,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.05317307692307691,
+      "total_clipped_V": 1,
+      "mean_clipped_fraction_V": 0.0001059322033898305,
+      "max_clipped_fraction_V": 0.00423728813559322
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 4,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.053429487179487166,
+      "total_clipped_V": 2,
+      "mean_clipped_fraction_V": 0.00022441561571210538,
+      "max_clipped_fraction_V": 0.004739336492890996
+    },
+    {
+      "cohort": "fresh_d15",
+      "penalty": 4,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.05317307692307691,
+      "total_clipped_V": 1,
+      "mean_clipped_fraction_V": 0.0001059322033898305,
+      "max_clipped_fraction_V": 0.00423728813559322
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 0.25,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.2816666666666667,
+      "total_clipped_V": 514,
+      "mean_clipped_fraction_V": 0.029848915860603325,
+      "max_clipped_fraction_V": 0.05176470588235294
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 0.25,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.2817948717948718,
+      "total_clipped_V": 516,
+      "mean_clipped_fraction_V": 0.029964792116041316,
+      "max_clipped_fraction_V": 0.05176470588235294
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 0.25,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.2816666666666667,
+      "total_clipped_V": 514,
+      "mean_clipped_fraction_V": 0.029848915860603325,
+      "max_clipped_fraction_V": 0.05176470588235294
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 1,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.1789102564102564,
+      "total_clipped_V": 223,
+      "mean_clipped_fraction_V": 0.01279495570387575,
+      "max_clipped_fraction_V": 0.027932960893854747
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 1,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.17897435897435895,
+      "total_clipped_V": 223,
+      "mean_clipped_fraction_V": 0.01279495570387575,
+      "max_clipped_fraction_V": 0.027932960893854747
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 1,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.1789102564102564,
+      "total_clipped_V": 223,
+      "mean_clipped_fraction_V": 0.01279495570387575,
+      "max_clipped_fraction_V": 0.027932960893854747
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 4,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.04173076923076923,
+      "total_clipped_V": 16,
+      "mean_clipped_fraction_V": 0.0009204291041182697,
+      "max_clipped_fraction_V": 0.007075471698113208
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 4,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.04182692307692308,
+      "total_clipped_V": 16,
+      "mean_clipped_fraction_V": 0.0009204291041182697,
+      "max_clipped_fraction_V": 0.007075471698113208
+    },
+    {
+      "cohort": "fresh_d25",
+      "penalty": 4,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.04173076923076923,
+      "total_clipped_V": 16,
+      "mean_clipped_fraction_V": 0.0009204291041182697,
+      "max_clipped_fraction_V": 0.007075471698113208
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 0.25,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.4004487179487179,
+      "total_clipped_V": 66,
+      "mean_clipped_fraction_V": 0.006723303233221499,
+      "max_clipped_fraction_V": 0.03018867924528302
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 0.25,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.40076923076923077,
+      "total_clipped_V": 66,
+      "mean_clipped_fraction_V": 0.006723303233221499,
+      "max_clipped_fraction_V": 0.03018867924528302
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 0.25,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.4004487179487179,
+      "total_clipped_V": 66,
+      "mean_clipped_fraction_V": 0.006723303233221499,
+      "max_clipped_fraction_V": 0.03018867924528302
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 1,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.2558653846153846,
+      "total_clipped_V": 8,
+      "mean_clipped_fraction_V": 0.000848724086178285,
+      "max_clipped_fraction_V": 0.01327433628318584
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 1,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.2561217948717949,
+      "total_clipped_V": 8,
+      "mean_clipped_fraction_V": 0.000848724086178285,
+      "max_clipped_fraction_V": 0.01327433628318584
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 1,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.2558653846153846,
+      "total_clipped_V": 8,
+      "mean_clipped_fraction_V": 0.000848724086178285,
+      "max_clipped_fraction_V": 0.01327433628318584
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 4,
+      "epsilon": 1e-06,
+      "mean_clipped_fraction_all_pairs": 0.05516025641025642,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 4,
+      "epsilon": 0.0001,
+      "mean_clipped_fraction_all_pairs": 0.05551282051282051,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    },
+    {
+      "cohort": "sbm",
+      "penalty": 4,
+      "epsilon": 1e-08,
+      "mean_clipped_fraction_all_pairs": 0.05516025641025642,
+      "total_clipped_V": 0,
+      "mean_clipped_fraction_V": 0.0,
+      "max_clipped_fraction_V": 0.0
+    }
+  ],
+  "maximum_probability_change_across_epsilons": {
+    "cohort": "fresh_d15",
+    "seed": 21026,
+    "method": "Nuclear_lambda4",
+    "epsilon": 0.0001,
+    "reference_epsilon": 1e-06,
+    "max_abs": 0.0006701975001055614,
+    "rms_V": 7.556269333976525e-05,
+    "max_abs_V": 0.0006701975001055614
+  },
+  "max_constraint_error": 1.3322676295501878e-15,
+  "max_logweight_span": 53.887264670907015,
+  "total_underflows": 0,
+  "total_rounded_endpoint_marginals_on_V": 0,
+  "all_original_supports_reproduced": true,
+  "capped_fits_retained": [
+    {
+      "cohort": "exploratory",
+      "seed": 1006,
+      "method": "Nuclear_lambda4",
+      "metadata": {
+        "status": "iteration_cap",
+        "early": {
+          "iterations": 10000,
+          "converged": false,
+          "primal_residual": 2.944497764983497e-06,
+          "dual_residual": 4.2684753311819316e-08,
+          "objective": 59.55650780685536
+        },
+        "final": {
+          "iterations": 50000,
+          "converged": false,
+          "primal_residual": 2.6934693632977636e-07,
+          "dual_residual": 4.134966140800551e-09,
+          "objective": 59.55649255016571
+        }
+      }
+    }
+  ],
+  "maximum_probability_tie_tolerance_mean_change": {
+    "cohort": "exploratory",
+    "model": "Q_plugin_Nuclear_lambda1_eps1e-06",
+    "tolerance_metric": "auc_V_tie_1e-12",
+    "mean_change": -0.0002637342116917907
+  },
+  "correction_max_single_case_auc_V_change": 0.00019157088122601085,
+  "correction_max_cohort_mean_auc_V_change": 8.412460436449388e-06
+}

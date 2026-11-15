@@ -1,0 +1,6230 @@
+{
+  "metadata": {
+    "n": 40,
+    "k": [
+      4,
+      8
+    ],
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036
+    ],
+    "dgp_alpha": -2.8,
+    "fixed_zeta": 1.5,
+    "nuclear_penalty": 1.0,
+    "chains": 2,
+    "warmup_per_chain": 400,
+    "kept_per_chain": 800,
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "total_seconds": 255.35019666699736
+  },
+  "runs": [
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 101,
+      "model": "Bayes_circle",
+      "auc": 0.7794744566356838,
+      "probability_rmse": 0.07197915308300874,
+      "ard_rmse": 0.9366250076694025,
+      "seconds": 2.3719439999986207
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 101,
+      "model": "Nuclear_probability",
+      "auc": 0.8611800265567126,
+      "probability_rmse": 0.13525719590841523,
+      "ard_rmse": 0.19424326725228622,
+      "seconds": 0.46590262499739765
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 101,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07482035595448117,
+      "ard_rmse": 1.0183280956811753,
+      "seconds": 5.6499997299397364e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 202,
+      "model": "Bayes_circle",
+      "auc": 0.8695434138886236,
+      "probability_rmse": 0.06862289270136793,
+      "ard_rmse": 0.8284400677709369,
+      "seconds": 2.6507123749979655
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 202,
+      "model": "Nuclear_probability",
+      "auc": 0.9290285605119878,
+      "probability_rmse": 0.11906900022196887,
+      "ard_rmse": 0.2016381146558108,
+      "seconds": 0.8168299999997544
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 202,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07110300051533794,
+      "ard_rmse": 0.8729159458508648,
+      "seconds": 6.658300117123872e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 303,
+      "model": "Bayes_circle",
+      "auc": 0.8771950445473565,
+      "probability_rmse": 0.06961395263050936,
+      "ard_rmse": 0.8076752541874858,
+      "seconds": 2.4041468749965134
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 303,
+      "model": "Nuclear_probability",
+      "auc": 0.9061214415007405,
+      "probability_rmse": 0.12206019237132609,
+      "ard_rmse": 0.18165195739795623,
+      "seconds": 0.7708114170018234
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 303,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07023332212940625,
+      "ard_rmse": 0.8418985366162643,
+      "seconds": 6.787500024074689e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 404,
+      "model": "Bayes_circle",
+      "auc": 0.7864012910166757,
+      "probability_rmse": 0.07209675168994449,
+      "ard_rmse": 0.7326842040093444,
+      "seconds": 2.3801953329966636
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 404,
+      "model": "Nuclear_probability",
+      "auc": 0.8715868746637977,
+      "probability_rmse": 0.11658651518204145,
+      "ard_rmse": 0.19318831311691315,
+      "seconds": 0.23331262500141747
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 404,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07259647159606783,
+      "ard_rmse": 0.7658056759605097,
+      "seconds": 7.341599848587066e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1001,
+      "model": "Bayes_circle",
+      "auc": 0.8524350385525199,
+      "probability_rmse": 0.0700054136434648,
+      "ard_rmse": 0.9107751251432756,
+      "seconds": 2.414299583000684
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1001,
+      "model": "Nuclear_probability",
+      "auc": 0.8949421260766717,
+      "probability_rmse": 0.13378827179291622,
+      "ard_rmse": 0.18857963723750104,
+      "seconds": 0.8942952090001199
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1001,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07167398608397244,
+      "ard_rmse": 0.968260477896934,
+      "seconds": 6.304199996520765e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1002,
+      "model": "Bayes_circle",
+      "auc": 0.8181782953246401,
+      "probability_rmse": 0.07134993328981674,
+      "ard_rmse": 0.8095748576183808,
+      "seconds": 2.5987302499997895
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1002,
+      "model": "Nuclear_probability",
+      "auc": 0.8646025072174537,
+      "probability_rmse": 0.12296928033655184,
+      "ard_rmse": 0.19325543175553941,
+      "seconds": 1.4899127499993483
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1002,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07184514856300649,
+      "ard_rmse": 0.8494363777018933,
+      "seconds": 6.850000136182643e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1003,
+      "model": "Bayes_circle",
+      "auc": 0.8612735684357542,
+      "probability_rmse": 0.07040458714182697,
+      "ard_rmse": 0.8017227823449321,
+      "seconds": 2.454645249999885
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1003,
+      "model": "Nuclear_probability",
+      "auc": 0.8865769029329609,
+      "probability_rmse": 0.1266011076463362,
+      "ard_rmse": 0.20486461004423703,
+      "seconds": 1.0664617500005988
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1003,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07060485179457886,
+      "ard_rmse": 0.8433636981849371,
+      "seconds": 6.166599996504374e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1004,
+      "model": "Bayes_circle",
+      "auc": 0.8628257887517147,
+      "probability_rmse": 0.07150028269379245,
+      "ard_rmse": 0.7599620294310357,
+      "seconds": 2.8589992499983055
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1004,
+      "model": "Nuclear_probability",
+      "auc": 0.9374781462653649,
+      "probability_rmse": 0.1158085850890092,
+      "ard_rmse": 0.20466128096075134,
+      "seconds": 0.5849492080014898
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1004,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0726168209388337,
+      "ard_rmse": 0.819413576570132,
+      "seconds": 6.304199996520765e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1005,
+      "model": "Bayes_circle",
+      "auc": 0.8826905417814509,
+      "probability_rmse": 0.07125404685421005,
+      "ard_rmse": 0.757681708129061,
+      "seconds": 2.4839261669985717
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1005,
+      "model": "Nuclear_probability",
+      "auc": 0.9146260585654525,
+      "probability_rmse": 0.11572877016034573,
+      "ard_rmse": 0.19999758763686057,
+      "seconds": 0.5560345000012603
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1005,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07223573297689229,
+      "ard_rmse": 0.7992692668598897,
+      "seconds": 6.129100074758753e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1006,
+      "model": "Bayes_circle",
+      "auc": 0.867016149885987,
+      "probability_rmse": 0.06958081448199724,
+      "ard_rmse": 0.7802885314553649,
+      "seconds": 2.4098834579999675
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1006,
+      "model": "Nuclear_probability",
+      "auc": 0.9097651566797527,
+      "probability_rmse": 0.11578777149254715,
+      "ard_rmse": 0.20024286044944384,
+      "seconds": 1.7956419170004665
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1006,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07031031228436443,
+      "ard_rmse": 0.818169982531492,
+      "seconds": 6.608400144614279e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1007,
+      "model": "Bayes_circle",
+      "auc": 0.8299393540136792,
+      "probability_rmse": 0.06939905139012997,
+      "ard_rmse": 0.8314865669113856,
+      "seconds": 2.6120910000026925
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1007,
+      "model": "Nuclear_probability",
+      "auc": 0.8877371103059425,
+      "probability_rmse": 0.12178303084104436,
+      "ard_rmse": 0.20216714599113728,
+      "seconds": 1.182166042002791
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1007,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07037633872404457,
+      "ard_rmse": 0.8810344187049679,
+      "seconds": 6.216700057848357e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1008,
+      "model": "Bayes_circle",
+      "auc": 0.8341180163214061,
+      "probability_rmse": 0.07127317096551172,
+      "ard_rmse": 0.8668600171009874,
+      "seconds": 2.7876885829973617
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1008,
+      "model": "Nuclear_probability",
+      "auc": 0.8962649089767734,
+      "probability_rmse": 0.12807171721845534,
+      "ard_rmse": 0.19426320294262336,
+      "seconds": 1.0876999579995754
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1008,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07366193313036044,
+      "ard_rmse": 0.937602065449994,
+      "seconds": 6.445799954235554e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1009,
+      "model": "Bayes_circle",
+      "auc": 0.8363888888888888,
+      "probability_rmse": 0.07001014735221618,
+      "ard_rmse": 0.7882610020037242,
+      "seconds": 2.3938049580028746
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1009,
+      "model": "Nuclear_probability",
+      "auc": 0.897349537037037,
+      "probability_rmse": 0.11515488953607561,
+      "ard_rmse": 0.2003630273948379,
+      "seconds": 0.45020650000151363
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1009,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07039158523332431,
+      "ard_rmse": 0.8205028044260457,
+      "seconds": 6.462500095949508e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1010,
+      "model": "Bayes_circle",
+      "auc": 0.824722969338354,
+      "probability_rmse": 0.07026498587446556,
+      "ard_rmse": 0.7870195976816704,
+      "seconds": 2.660689125001227
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1010,
+      "model": "Nuclear_probability",
+      "auc": 0.881775147928994,
+      "probability_rmse": 0.12001659806440963,
+      "ard_rmse": 0.194157729643225,
+      "seconds": 1.3027325000002747
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1010,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07048248742962508,
+      "ard_rmse": 0.8260094833999587,
+      "seconds": 6.70000008540228e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1011,
+      "model": "Bayes_circle",
+      "auc": 0.8245460893854749,
+      "probability_rmse": 0.07068279425515485,
+      "ard_rmse": 0.8086485323480921,
+      "seconds": 2.7437191249991884
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1011,
+      "model": "Nuclear_probability",
+      "auc": 0.8994413407821229,
+      "probability_rmse": 0.1229441559405692,
+      "ard_rmse": 0.19175574657537953,
+      "seconds": 1.7506473339999502
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1011,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0705684221195435,
+      "ard_rmse": 0.8496489587218942,
+      "seconds": 6.100000246078707e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1012,
+      "model": "Bayes_circle",
+      "auc": 0.8439009002450802,
+      "probability_rmse": 0.06812518377504703,
+      "ard_rmse": 0.7899889514659026,
+      "seconds": 2.4818403749995923
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1012,
+      "model": "Nuclear_probability",
+      "auc": 0.9236975564776395,
+      "probability_rmse": 0.11789076134222594,
+      "ard_rmse": 0.20448818002991426,
+      "seconds": 0.3170633329973498
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1012,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.070247218888912,
+      "ard_rmse": 0.8431305253875206,
+      "seconds": 6.512500112876296e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1013,
+      "model": "Bayes_circle",
+      "auc": 0.8525013448090372,
+      "probability_rmse": 0.07201682444502065,
+      "ard_rmse": 0.812110091461043,
+      "seconds": 2.4111583749981946
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1013,
+      "model": "Nuclear_probability",
+      "auc": 0.9110919849381388,
+      "probability_rmse": 0.12657268686576884,
+      "ard_rmse": 0.21636258899547006,
+      "seconds": 0.42140999999901396
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1013,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07196112211935579,
+      "ard_rmse": 0.8533024082938007,
+      "seconds": 6.4208001276711e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1014,
+      "model": "Bayes_circle",
+      "auc": 0.8221613965240028,
+      "probability_rmse": 0.07030395298004424,
+      "ard_rmse": 0.7971176584736583,
+      "seconds": 2.5161782079994737
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1014,
+      "model": "Nuclear_probability",
+      "auc": 0.8594862567950387,
+      "probability_rmse": 0.1191604934676409,
+      "ard_rmse": 0.17738031552212766,
+      "seconds": 0.29165158300020266
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1014,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07150876846058597,
+      "ard_rmse": 0.8613152183291805,
+      "seconds": 6.170800043037161e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1015,
+      "model": "Bayes_circle",
+      "auc": 0.851455733808675,
+      "probability_rmse": 0.07304066450180506,
+      "ard_rmse": 0.8112212888802104,
+      "seconds": 2.6020580420008628
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1015,
+      "model": "Nuclear_probability",
+      "auc": 0.8914247517188694,
+      "probability_rmse": 0.12829523798427153,
+      "ard_rmse": 0.1812244569260922,
+      "seconds": 1.376014874997054
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1015,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07321887920785963,
+      "ard_rmse": 0.8507045461569317,
+      "seconds": 6.179100091685541e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1016,
+      "model": "Bayes_circle",
+      "auc": 0.8384286653517423,
+      "probability_rmse": 0.06950085281560399,
+      "ard_rmse": 0.9230315522482371,
+      "seconds": 2.67267695800183
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1016,
+      "model": "Nuclear_probability",
+      "auc": 0.8999105120899993,
+      "probability_rmse": 0.1378246071093092,
+      "ard_rmse": 0.2165436399599386,
+      "seconds": 0.4844016669994744
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1016,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07138625143982168,
+      "ard_rmse": 0.998749217771909,
+      "seconds": 6.774999928893521e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1017,
+      "model": "Bayes_circle",
+      "auc": 0.8460462614308768,
+      "probability_rmse": 0.06929612593940197,
+      "ard_rmse": 0.8121259010775982,
+      "seconds": 2.407291957999405
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1017,
+      "model": "Nuclear_probability",
+      "auc": 0.9106831629908553,
+      "probability_rmse": 0.12662593543012385,
+      "ard_rmse": 0.20671424939639943,
+      "seconds": 1.0438015830004588
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1017,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.06917614067008195,
+      "ard_rmse": 0.8666266016380219,
+      "seconds": 6.008399941492826e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1018,
+      "model": "Bayes_circle",
+      "auc": 0.8675621763857058,
+      "probability_rmse": 0.06993877202243065,
+      "ard_rmse": 0.827564110817366,
+      "seconds": 2.3726298750007118
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1018,
+      "model": "Nuclear_probability",
+      "auc": 0.8795624310330192,
+      "probability_rmse": 0.12338930356275313,
+      "ard_rmse": 0.20431492128363435,
+      "seconds": 1.1639504170016153
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1018,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07029941404405092,
+      "ard_rmse": 0.8652734971395293,
+      "seconds": 6.20419996266719e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1019,
+      "model": "Bayes_circle",
+      "auc": 0.8282828282828283,
+      "probability_rmse": 0.06984500559053748,
+      "ard_rmse": 0.7930407663570329,
+      "seconds": 2.3791069589969993
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1019,
+      "model": "Nuclear_probability",
+      "auc": 0.8966874628639334,
+      "probability_rmse": 0.12425281215460798,
+      "ard_rmse": 0.18858035471795925,
+      "seconds": 1.7290460420008458
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1019,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.06926218923143238,
+      "ard_rmse": 0.8371461099876506,
+      "seconds": 6.775000292691402e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1020,
+      "model": "Bayes_circle",
+      "auc": 0.8681417596449729,
+      "probability_rmse": 0.07023713803436828,
+      "ard_rmse": 0.863930813614703,
+      "seconds": 2.4093059160004486
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1020,
+      "model": "Nuclear_probability",
+      "auc": 0.9042515333570577,
+      "probability_rmse": 0.13256996696177833,
+      "ard_rmse": 0.2024603990504689,
+      "seconds": 0.7854947080013517
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1020,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0706112999200097,
+      "ard_rmse": 0.9280362238305234,
+      "seconds": 6.354200013447553e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1021,
+      "model": "Bayes_circle",
+      "auc": 0.7904010806730368,
+      "probability_rmse": 0.07135227908414574,
+      "ard_rmse": 0.8435027700792936,
+      "seconds": 2.3987043340021046
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1021,
+      "model": "Nuclear_probability",
+      "auc": 0.8927273088460239,
+      "probability_rmse": 0.13540219402379053,
+      "ard_rmse": 0.19230406510426587,
+      "seconds": 0.46718054200027836
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1021,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07121387592777585,
+      "ard_rmse": 0.9093768321656784,
+      "seconds": 6.345799920381978e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1022,
+      "model": "Bayes_circle",
+      "auc": 0.8332138497607099,
+      "probability_rmse": 0.06799575651760958,
+      "ard_rmse": 0.9430561806323795,
+      "seconds": 2.414444000001822
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1022,
+      "model": "Nuclear_probability",
+      "auc": 0.9024142140241421,
+      "probability_rmse": 0.13631740075984047,
+      "ard_rmse": 0.19478635257094323,
+      "seconds": 0.9081287500011967
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1022,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0710715616671089,
+      "ard_rmse": 1.0245404752396752,
+      "seconds": 6.316599683486857e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1023,
+      "model": "Bayes_circle",
+      "auc": 0.8120407778777919,
+      "probability_rmse": 0.07247015162022465,
+      "ard_rmse": 0.7731992669388028,
+      "seconds": 2.9332158750003146
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1023,
+      "model": "Nuclear_probability",
+      "auc": 0.8794666220091687,
+      "probability_rmse": 0.12014316805006592,
+      "ard_rmse": 0.19167121310541554,
+      "seconds": 0.8068499999972119
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1023,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0732757416510999,
+      "ard_rmse": 0.8102911486386422,
+      "seconds": 8.612500096205622e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1024,
+      "model": "Bayes_circle",
+      "auc": 0.8433729605277722,
+      "probability_rmse": 0.07004759438380785,
+      "ard_rmse": 0.7518349605364362,
+      "seconds": 2.7305896249999932
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1024,
+      "model": "Nuclear_probability",
+      "auc": 0.8877709149675677,
+      "probability_rmse": 0.11335999666349408,
+      "ard_rmse": 0.18682445920634588,
+      "seconds": 0.7303416670001752
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1024,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07056866782951775,
+      "ard_rmse": 0.7896168833587635,
+      "seconds": 6.387499888660386e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1025,
+      "model": "Bayes_circle",
+      "auc": 0.8425671057250005,
+      "probability_rmse": 0.07131753850048084,
+      "ard_rmse": 0.9277566813785307,
+      "seconds": 2.574968541000999
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1025,
+      "model": "Nuclear_probability",
+      "auc": 0.886331307383939,
+      "probability_rmse": 0.13656292992320807,
+      "ard_rmse": 0.21592566663086554,
+      "seconds": 0.30044433399962145
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1025,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07316431980518824,
+      "ard_rmse": 0.991063994016878,
+      "seconds": 6.429199856938794e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1026,
+      "model": "Bayes_circle",
+      "auc": 0.8252051093585491,
+      "probability_rmse": 0.07012514089440806,
+      "ard_rmse": 0.9010437777051996,
+      "seconds": 2.46475566600202
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1026,
+      "model": "Nuclear_probability",
+      "auc": 0.8951508770535768,
+      "probability_rmse": 0.1320544522256488,
+      "ard_rmse": 0.19330806431568565,
+      "seconds": 1.6149748340030783
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1026,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07138174570792975,
+      "ard_rmse": 0.9633732494477305,
+      "seconds": 6.145900260889903e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1027,
+      "model": "Bayes_circle",
+      "auc": 0.7784823198942499,
+      "probability_rmse": 0.06962735535580855,
+      "ard_rmse": 0.7445830998663159,
+      "seconds": 2.812330959000974
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1027,
+      "model": "Nuclear_probability",
+      "auc": 0.884841787838731,
+      "probability_rmse": 0.11537971604396167,
+      "ard_rmse": 0.17075007305869563,
+      "seconds": 0.2503983339993283
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1027,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07046756349234629,
+      "ard_rmse": 0.8292424241605186,
+      "seconds": 6.770799882360734e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1028,
+      "model": "Bayes_circle",
+      "auc": 0.820603762816201,
+      "probability_rmse": 0.06987747905221457,
+      "ard_rmse": 0.8359554514243629,
+      "seconds": 2.4441417080015526
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1028,
+      "model": "Nuclear_probability",
+      "auc": 0.8827330357324854,
+      "probability_rmse": 0.12335705559050027,
+      "ard_rmse": 0.2136106667712672,
+      "seconds": 1.001020707997668
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1028,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07073096485760887,
+      "ard_rmse": 0.9085006993448377,
+      "seconds": 6.349999966914766e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1029,
+      "model": "Bayes_circle",
+      "auc": 0.805372927167799,
+      "probability_rmse": 0.07202729259049713,
+      "ard_rmse": 0.776608423747465,
+      "seconds": 2.425804334001441
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1029,
+      "model": "Nuclear_probability",
+      "auc": 0.8248411133026518,
+      "probability_rmse": 0.12369849917505323,
+      "ard_rmse": 0.18267329836830454,
+      "seconds": 0.15952166600254714
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1029,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07194818511547671,
+      "ard_rmse": 0.8231038816577164,
+      "seconds": 6.083300104364753e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1030,
+      "model": "Bayes_circle",
+      "auc": 0.8743195266272189,
+      "probability_rmse": 0.06960110252720594,
+      "ard_rmse": 0.791623702277808,
+      "seconds": 2.4157480409994605
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1030,
+      "model": "Nuclear_probability",
+      "auc": 0.8923399677245831,
+      "probability_rmse": 0.12069723911127807,
+      "ard_rmse": 0.20346901801978343,
+      "seconds": 0.36396316699756426
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1030,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.06989675276570974,
+      "ard_rmse": 0.8310385069297331,
+      "seconds": 6.587499956367537e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1031,
+      "model": "Bayes_circle",
+      "auc": 0.85168916051269,
+      "probability_rmse": 0.07096391497665806,
+      "ard_rmse": 0.8121104303948928,
+      "seconds": 2.431660500002181
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1031,
+      "model": "Nuclear_probability",
+      "auc": 0.8691855530090824,
+      "probability_rmse": 0.12399815558084898,
+      "ard_rmse": 0.18536909209774213,
+      "seconds": 1.6828449580025335
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1031,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07108723651719485,
+      "ard_rmse": 0.8494603229325584,
+      "seconds": 6.399999983841553e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1032,
+      "model": "Bayes_circle",
+      "auc": 0.8539532385988103,
+      "probability_rmse": 0.06952082826747152,
+      "ard_rmse": 0.7748718040008831,
+      "seconds": 2.401031082998088
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1032,
+      "model": "Nuclear_probability",
+      "auc": 0.862927544613351,
+      "probability_rmse": 0.1207601967851519,
+      "ard_rmse": 0.19681460953521304,
+      "seconds": 1.9463378750006086
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1032,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0695249465436183,
+      "ard_rmse": 0.8239690827389489,
+      "seconds": 6.362500062095933e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1033,
+      "model": "Bayes_circle",
+      "auc": 0.8450564819795588,
+      "probability_rmse": 0.06902066850577898,
+      "ard_rmse": 0.918756355590455,
+      "seconds": 2.4670609169988893
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1033,
+      "model": "Nuclear_probability",
+      "auc": 0.9286713286713286,
+      "probability_rmse": 0.13515794723525743,
+      "ard_rmse": 0.21301744596128308,
+      "seconds": 1.0374867499995162
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1033,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07001229813707313,
+      "ard_rmse": 0.9900547122928779,
+      "seconds": 7.891600034781732e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1034,
+      "model": "Bayes_circle",
+      "auc": 0.8178477341657258,
+      "probability_rmse": 0.06943659965830143,
+      "ard_rmse": 0.7836482238187602,
+      "seconds": 2.952296415998717
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1034,
+      "model": "Nuclear_probability",
+      "auc": 0.895397489539749,
+      "probability_rmse": 0.11784071259166014,
+      "ard_rmse": 0.18450728383555945,
+      "seconds": 0.5072240419976879
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1034,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.06954527977438472,
+      "ard_rmse": 0.8194361425492387,
+      "seconds": 7.399999958579428e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1035,
+      "model": "Bayes_circle",
+      "auc": 0.8547448300522458,
+      "probability_rmse": 0.07042408257949126,
+      "ard_rmse": 0.8460975369759981,
+      "seconds": 2.398776416997862
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1035,
+      "model": "Nuclear_probability",
+      "auc": 0.8646278233576352,
+      "probability_rmse": 0.12703118779370365,
+      "ard_rmse": 0.1837840892105751,
+      "seconds": 1.380947166999249
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1035,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0708069421180269,
+      "ard_rmse": 0.8891501660301703,
+      "seconds": 6.175000089569949e-05
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1036,
+      "model": "Bayes_circle",
+      "auc": 0.8239283632702803,
+      "probability_rmse": 0.07255722022446753,
+      "ard_rmse": 0.8987473045805101,
+      "seconds": 2.480500124998798
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1036,
+      "model": "Nuclear_probability",
+      "auc": 0.8805171408891008,
+      "probability_rmse": 0.13827282390210904,
+      "ard_rmse": 0.20383931882034334,
+      "seconds": 0.8669230000014068
+    },
+    {
+      "n": 40,
+      "k": 4,
+      "seed": 1036,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07231802092639884,
+      "ard_rmse": 0.9556337932207934,
+      "seconds": 6.445799954235554e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 101,
+      "model": "Bayes_circle",
+      "auc": 0.8738730868684045,
+      "probability_rmse": 0.06354051280705852,
+      "ard_rmse": 0.6291797558772145,
+      "seconds": 2.7942499589989893
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 101,
+      "model": "Nuclear_probability",
+      "auc": 0.9627157732895381,
+      "probability_rmse": 0.14267985639796782,
+      "ard_rmse": 0.21389466036307064,
+      "seconds": 0.17247279100047308
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 101,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07482035595448117,
+      "ard_rmse": 0.6994409338799459,
+      "seconds": 6.991700138314627e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 202,
+      "model": "Bayes_circle",
+      "auc": 0.9420431750883561,
+      "probability_rmse": 0.06748208401237446,
+      "ard_rmse": 0.548668029958362,
+      "seconds": 2.3226774169997952
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 202,
+      "model": "Nuclear_probability",
+      "auc": 0.9673798834654694,
+      "probability_rmse": 0.11924904420073595,
+      "ard_rmse": 0.1986149491626184,
+      "seconds": 0.4686407919980411
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 202,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07110300051533794,
+      "ard_rmse": 0.5779257668411759,
+      "seconds": 6.970799950067885e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 303,
+      "model": "Bayes_circle",
+      "auc": 0.9126448670631656,
+      "probability_rmse": 0.06797673144856085,
+      "ard_rmse": 0.5496231682483943,
+      "seconds": 2.4131630000010773
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 303,
+      "model": "Nuclear_probability",
+      "auc": 0.9709208020874962,
+      "probability_rmse": 0.12579925343960824,
+      "ard_rmse": 0.19708008946200692,
+      "seconds": 0.6890703749995737
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 303,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07023332212940625,
+      "ard_rmse": 0.5854127841757448,
+      "seconds": 6.733299960615113e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 404,
+      "model": "Bayes_circle",
+      "auc": 0.9035610543302851,
+      "probability_rmse": 0.07190396481732261,
+      "ard_rmse": 0.5380542734586707,
+      "seconds": 2.4478417909995187
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 404,
+      "model": "Nuclear_probability",
+      "auc": 0.9618719741796665,
+      "probability_rmse": 0.12424696079048987,
+      "ard_rmse": 0.20668216865076547,
+      "seconds": 0.24776591699992423
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 404,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07259647159606783,
+      "ard_rmse": 0.5647332211859961,
+      "seconds": 6.837499677203596e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1001,
+      "model": "Bayes_circle",
+      "auc": 0.8843063255024468,
+      "probability_rmse": 0.06815302555740312,
+      "ard_rmse": 0.6295724818270435,
+      "seconds": 2.400584750001144
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1001,
+      "model": "Nuclear_probability",
+      "auc": 0.9672077863450044,
+      "probability_rmse": 0.14236074266209056,
+      "ard_rmse": 0.22829605213910492,
+      "seconds": 0.3520387919998029
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1001,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07167398608397244,
+      "ard_rmse": 0.6782501136260822,
+      "seconds": 6.612500146729872e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1002,
+      "model": "Bayes_circle",
+      "auc": 0.869427060122842,
+      "probability_rmse": 0.07281569457900616,
+      "ard_rmse": 0.6021709934255429,
+      "seconds": 2.4049036249998608
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1002,
+      "model": "Nuclear_probability",
+      "auc": 0.9574896824320397,
+      "probability_rmse": 0.13675314352751908,
+      "ard_rmse": 0.21911781720515144,
+      "seconds": 0.1188596249994589
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1002,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07184514856300649,
+      "ard_rmse": 0.6531754038177886,
+      "seconds": 6.433299859054387e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1003,
+      "model": "Bayes_circle",
+      "auc": 0.9164629888268156,
+      "probability_rmse": 0.06999015437514033,
+      "ard_rmse": 0.5784104564106975,
+      "seconds": 2.4256202500000654
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1003,
+      "model": "Nuclear_probability",
+      "auc": 0.9745984636871509,
+      "probability_rmse": 0.1354442579827014,
+      "ard_rmse": 0.21652569532511284,
+      "seconds": 0.09968312499768217
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1003,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07060485179457886,
+      "ard_rmse": 0.6150092338001395,
+      "seconds": 6.645899702562019e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1004,
+      "model": "Bayes_circle",
+      "auc": 0.9254148847467657,
+      "probability_rmse": 0.07141820948244487,
+      "ard_rmse": 0.5400674779361503,
+      "seconds": 2.425034500000038
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1004,
+      "model": "Nuclear_probability",
+      "auc": 0.9845073832001937,
+      "probability_rmse": 0.12198815081165067,
+      "ard_rmse": 0.2051390479295238,
+      "seconds": 0.18918649999977788
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1004,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0726168209388337,
+      "ard_rmse": 0.5750016079216006,
+      "seconds": 6.616599785047583e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1005,
+      "model": "Bayes_circle",
+      "auc": 0.9436537088052239,
+      "probability_rmse": 0.07096831132580277,
+      "ard_rmse": 0.5175083259626105,
+      "seconds": 3.015913000002911
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1005,
+      "model": "Nuclear_probability",
+      "auc": 0.9760228548107336,
+      "probability_rmse": 0.1165989526731321,
+      "ard_rmse": 0.20321767996959908,
+      "seconds": 0.21499033300278825
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1005,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07223573297689229,
+      "ard_rmse": 0.5455305218737609,
+      "seconds": 6.787500024074689e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1006,
+      "model": "Bayes_circle",
+      "auc": 0.9031712075977338,
+      "probability_rmse": 0.06961096770008457,
+      "ard_rmse": 0.5733057889937788,
+      "seconds": 2.7092499580030562
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1006,
+      "model": "Nuclear_probability",
+      "auc": 0.9714144667246527,
+      "probability_rmse": 0.1311238318730999,
+      "ard_rmse": 0.19976199223804117,
+      "seconds": 0.6576833330000227
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1006,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07031031228436443,
+      "ard_rmse": 0.611521158976856,
+      "seconds": 7.441699926857837e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1007,
+      "model": "Bayes_circle",
+      "auc": 0.8752979016101219,
+      "probability_rmse": 0.06712841347590345,
+      "ard_rmse": 0.6016834080165085,
+      "seconds": 2.8352642499994545
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1007,
+      "model": "Nuclear_probability",
+      "auc": 0.9679525682509542,
+      "probability_rmse": 0.1347400727131473,
+      "ard_rmse": 0.21196551342071834,
+      "seconds": 0.22052483299921732
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1007,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07037633872404457,
+      "ard_rmse": 0.646256700961117,
+      "seconds": 6.70000008540228e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1008,
+      "model": "Bayes_circle",
+      "auc": 0.9109188637790333,
+      "probability_rmse": 0.07053643335408581,
+      "ard_rmse": 0.6160278655636258,
+      "seconds": 2.471654084001784
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1008,
+      "model": "Nuclear_probability",
+      "auc": 0.9719377746390458,
+      "probability_rmse": 0.1398104049227753,
+      "ard_rmse": 0.22701377619623828,
+      "seconds": 0.13901566700224066
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1008,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07366193313036044,
+      "ard_rmse": 0.6696506198479338,
+      "seconds": 7.01669996487908e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1009,
+      "model": "Bayes_circle",
+      "auc": 0.9392592592592592,
+      "probability_rmse": 0.06960078751759416,
+      "ard_rmse": 0.538857180289636,
+      "seconds": 2.9990140830013843
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1009,
+      "model": "Nuclear_probability",
+      "auc": 0.9643981481481482,
+      "probability_rmse": 0.11874237811889547,
+      "ard_rmse": 0.2085051034618452,
+      "seconds": 0.6900817909991019
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1009,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07039158523332431,
+      "ard_rmse": 0.5623808223518229,
+      "seconds": 7.408400051645003e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1010,
+      "model": "Bayes_circle",
+      "auc": 0.8780419580419581,
+      "probability_rmse": 0.06771768716171553,
+      "ard_rmse": 0.5616464917146998,
+      "seconds": 2.644331207997311
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1010,
+      "model": "Nuclear_probability",
+      "auc": 0.9692953200645509,
+      "probability_rmse": 0.12718589729118365,
+      "ard_rmse": 0.2034127704914679,
+      "seconds": 0.2696074999985285
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1010,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07048248742962508,
+      "ard_rmse": 0.5970122369860698,
+      "seconds": 7.199999890872277e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1011,
+      "model": "Bayes_circle",
+      "auc": 0.8874170740223464,
+      "probability_rmse": 0.0712231194712352,
+      "ard_rmse": 0.5524922922969234,
+      "seconds": 2.5158522499987157
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1011,
+      "model": "Nuclear_probability",
+      "auc": 0.9681717004189944,
+      "probability_rmse": 0.13311684468466223,
+      "ard_rmse": 0.20134226242269213,
+      "seconds": 0.4530116249989078
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1011,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0705684221195435,
+      "ard_rmse": 0.58556280069423,
+      "seconds": 7.2750000981614e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1012,
+      "model": "Bayes_circle",
+      "auc": 0.8748635073160078,
+      "probability_rmse": 0.06668212518395708,
+      "ard_rmse": 0.550648574494692,
+      "seconds": 2.6194773329989403
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1012,
+      "model": "Nuclear_probability",
+      "auc": 0.9774332095799665,
+      "probability_rmse": 0.12289116647852465,
+      "ard_rmse": 0.20836585360384247,
+      "seconds": 0.32631374999982654
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1012,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.070247218888912,
+      "ard_rmse": 0.5911592887993284,
+      "seconds": 6.808299804106355e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1013,
+      "model": "Bayes_circle",
+      "auc": 0.8847552447552448,
+      "probability_rmse": 0.07181121515333984,
+      "ard_rmse": 0.5644482538599181,
+      "seconds": 2.469436334002239
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1013,
+      "model": "Nuclear_probability",
+      "auc": 0.9675309306078537,
+      "probability_rmse": 0.13280458051229468,
+      "ard_rmse": 0.2076957798499868,
+      "seconds": 0.17067725000015344
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1013,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07196112211935579,
+      "ard_rmse": 0.5970122369860698,
+      "seconds": 6.804199801990762e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1014,
+      "model": "Bayes_circle",
+      "auc": 0.876234591532042,
+      "probability_rmse": 0.06939638247272623,
+      "ard_rmse": 0.5805399457862602,
+      "seconds": 2.469872541998484
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1014,
+      "model": "Nuclear_probability",
+      "auc": 0.9523581655309701,
+      "probability_rmse": 0.13117118273457243,
+      "ard_rmse": 0.21040540439879732,
+      "seconds": 0.13337404199774028
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1014,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07150876846058597,
+      "ard_rmse": 0.6358819270234497,
+      "seconds": 7.470899799955077e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1015,
+      "model": "Bayes_circle",
+      "auc": 0.8868941516000339,
+      "probability_rmse": 0.07202877461049231,
+      "ard_rmse": 0.5530658008514349,
+      "seconds": 2.4560200840023754
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1015,
+      "model": "Nuclear_probability",
+      "auc": 0.9536754095577625,
+      "probability_rmse": 0.12995340267119476,
+      "ard_rmse": 0.19393287583094987,
+      "seconds": 0.22294420800244552
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1015,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07321887920785963,
+      "ard_rmse": 0.5934554314457203,
+      "seconds": 6.86249986756593e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1016,
+      "model": "Bayes_circle",
+      "auc": 0.8651654613193075,
+      "probability_rmse": 0.07204075332333959,
+      "ard_rmse": 0.5911763704783822,
+      "seconds": 2.4820390830027463
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1016,
+      "model": "Nuclear_probability",
+      "auc": 0.9574475856527138,
+      "probability_rmse": 0.1405808313555731,
+      "ard_rmse": 0.2104313302565048,
+      "seconds": 0.2608734160021413
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1016,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07138625143982168,
+      "ard_rmse": 0.65,
+      "seconds": 7.708300108788535e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1017,
+      "model": "Bayes_circle",
+      "auc": 0.8824959655728887,
+      "probability_rmse": 0.06820796497370134,
+      "ard_rmse": 0.593564483255466,
+      "seconds": 2.4753018749979674
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1017,
+      "model": "Nuclear_probability",
+      "auc": 0.9742011834319526,
+      "probability_rmse": 0.13810460821098483,
+      "ard_rmse": 0.20803944681414852,
+      "seconds": 0.7476339579989144
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1017,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.06917614067008195,
+      "ard_rmse": 0.6399598511712365,
+      "seconds": 7.658300091861747e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1018,
+      "model": "Bayes_circle",
+      "auc": 0.9107461166284696,
+      "probability_rmse": 0.06948860268093383,
+      "ard_rmse": 0.5763394969787369,
+      "seconds": 4.013802707999275
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1018,
+      "model": "Nuclear_probability",
+      "auc": 0.9665138782785841,
+      "probability_rmse": 0.12792358982965943,
+      "ard_rmse": 0.21205239297231948,
+      "seconds": 0.21874954200029606
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1018,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07029941404405092,
+      "ard_rmse": 0.606437360482803,
+      "seconds": 7.420799738611095e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1019,
+      "model": "Bayes_circle",
+      "auc": 0.9132713691537221,
+      "probability_rmse": 0.06930456308606821,
+      "ard_rmse": 0.5638937578432971,
+      "seconds": 3.017773750001652
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1019,
+      "model": "Nuclear_probability",
+      "auc": 0.9580256344962227,
+      "probability_rmse": 0.13043893369422627,
+      "ard_rmse": 0.20151524433724877,
+      "seconds": 0.3042521660026978
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1019,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.06926218923143238,
+      "ard_rmse": 0.5969287767372599,
+      "seconds": 0.00015108299703570083
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1020,
+      "model": "Bayes_circle",
+      "auc": 0.884992987377279,
+      "probability_rmse": 0.07040855699804592,
+      "ard_rmse": 0.599037704500114,
+      "seconds": 2.58830087500246
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1020,
+      "model": "Nuclear_probability",
+      "auc": 0.979003998241611,
+      "probability_rmse": 0.14077276862549404,
+      "ard_rmse": 0.21387459249562632,
+      "seconds": 0.6484187080022821
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1020,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0706112999200097,
+      "ard_rmse": 0.6496337093153064,
+      "seconds": 7.204200301202945e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1021,
+      "model": "Bayes_circle",
+      "auc": 0.8988656906176126,
+      "probability_rmse": 0.06989704169287327,
+      "ard_rmse": 0.6165814615058269,
+      "seconds": 2.5256785839992517
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1021,
+      "model": "Nuclear_probability",
+      "auc": 0.9755259341663521,
+      "probability_rmse": 0.14367408882213284,
+      "ard_rmse": 0.21676812872190995,
+      "seconds": 1.3300358330016024
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1021,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07121387592777585,
+      "ard_rmse": 0.6654113242502713,
+      "seconds": 9.216699982061982e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1022,
+      "model": "Bayes_circle",
+      "auc": 0.8784755187847552,
+      "probability_rmse": 0.06811921590245101,
+      "ard_rmse": 0.6550203858862551,
+      "seconds": 2.5001957079985004
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1022,
+      "model": "Nuclear_probability",
+      "auc": 0.9752378368952355,
+      "probability_rmse": 0.14931485382668666,
+      "ard_rmse": 0.20986913973555354,
+      "seconds": 0.4783181249986228
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1022,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0710715616671089,
+      "ard_rmse": 0.7021740272630337,
+      "seconds": 7.174999700509943e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1023,
+      "model": "Bayes_circle",
+      "auc": 0.8865001779322182,
+      "probability_rmse": 0.07029353045993962,
+      "ard_rmse": 0.5548475857526215,
+      "seconds": 2.4205789580009878
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1023,
+      "model": "Nuclear_probability",
+      "auc": 0.953946955265747,
+      "probability_rmse": 0.12476589426414765,
+      "ard_rmse": 0.20729880606124995,
+      "seconds": 0.1613397500004794
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1023,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0732757416510999,
+      "ard_rmse": 0.5907445171001523,
+      "seconds": 7.204199937405065e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1024,
+      "model": "Bayes_circle",
+      "auc": 0.8988067565473423,
+      "probability_rmse": 0.07004720702598649,
+      "ard_rmse": 0.5533713842871124,
+      "seconds": 2.433951415998308
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1024,
+      "model": "Nuclear_probability",
+      "auc": 0.9695158398087268,
+      "probability_rmse": 0.12498310152286156,
+      "ard_rmse": 0.21066113087584407,
+      "seconds": 0.3191436249981052
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1024,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07056866782951775,
+      "ard_rmse": 0.5863287771474658,
+      "seconds": 6.820899943704717e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1025,
+      "model": "Bayes_circle",
+      "auc": 0.8784615100404574,
+      "probability_rmse": 0.06911221894766112,
+      "ard_rmse": 0.6250737212269408,
+      "seconds": 2.5724527910024335
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1025,
+      "model": "Nuclear_probability",
+      "auc": 0.9729544992702888,
+      "probability_rmse": 0.139968946850886,
+      "ard_rmse": 0.2327591480599036,
+      "seconds": 0.09310433399878093
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1025,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07316431980518824,
+      "ard_rmse": 0.6781555953507928,
+      "seconds": 6.749999738531187e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1026,
+      "model": "Bayes_circle",
+      "auc": 0.9010310097538687,
+      "probability_rmse": 0.07020706062709768,
+      "ard_rmse": 0.6057486525674459,
+      "seconds": 2.6042246659999364
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1026,
+      "model": "Nuclear_probability",
+      "auc": 0.9547865472099167,
+      "probability_rmse": 0.14208910229661564,
+      "ard_rmse": 0.19452895569204182,
+      "seconds": 0.18712754200169002
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1026,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07138174570792975,
+      "ard_rmse": 0.6467867715688047,
+      "seconds": 6.816600216552615e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1027,
+      "model": "Bayes_circle",
+      "auc": 0.9038540978189028,
+      "probability_rmse": 0.0681892879569237,
+      "ard_rmse": 0.5782804049174853,
+      "seconds": 2.4423242080010823
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1027,
+      "model": "Nuclear_probability",
+      "auc": 0.9741407799074686,
+      "probability_rmse": 0.13104284199382982,
+      "ard_rmse": 0.2170101001669826,
+      "seconds": 0.10787816700030817
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1027,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07046756349234629,
+      "ard_rmse": 0.6359788512810717,
+      "seconds": 6.641599975409918e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1028,
+      "model": "Bayes_circle",
+      "auc": 0.8594345583888787,
+      "probability_rmse": 0.06878839841741514,
+      "ard_rmse": 0.5908632627636435,
+      "seconds": 2.4566305840016867
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1028,
+      "model": "Nuclear_probability",
+      "auc": 0.9776187855439369,
+      "probability_rmse": 0.13572577396227298,
+      "ard_rmse": 0.22223008476128114,
+      "seconds": 0.39854325000123936
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1028,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07073096485760887,
+      "ard_rmse": 0.649264205755823,
+      "seconds": 7.812499825377017e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1029,
+      "model": "Bayes_circle",
+      "auc": 0.8875009131419388,
+      "probability_rmse": 0.07230560719734196,
+      "ard_rmse": 0.5843706089600162,
+      "seconds": 2.4770842079997237
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1029,
+      "model": "Nuclear_probability",
+      "auc": 0.9434947768281101,
+      "probability_rmse": 0.13922321031051013,
+      "ard_rmse": 0.2191751524853209,
+      "seconds": 0.23201062500083935
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1029,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07194818511547671,
+      "ard_rmse": 0.6304760106459246,
+      "seconds": 8.354199962923303e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1030,
+      "model": "Bayes_circle",
+      "auc": 0.9096718665949435,
+      "probability_rmse": 0.06930452770608768,
+      "ard_rmse": 0.5539641975087246,
+      "seconds": 2.530002166997292
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1030,
+      "model": "Nuclear_probability",
+      "auc": 0.9596772458310919,
+      "probability_rmse": 0.1291367025085588,
+      "ard_rmse": 0.2032343730507965,
+      "seconds": 0.1545155829990108
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1030,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.06989675276570974,
+      "ard_rmse": 0.5864500073417266,
+      "seconds": 7.154099876061082e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1031,
+      "model": "Bayes_circle",
+      "auc": 0.9246880570409982,
+      "probability_rmse": 0.06837019806986065,
+      "ard_rmse": 0.594985719935988,
+      "seconds": 2.4581732080005168
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1031,
+      "model": "Nuclear_probability",
+      "auc": 0.9761268143621085,
+      "probability_rmse": 0.13555539186190482,
+      "ard_rmse": 0.21130852003095757,
+      "seconds": 0.6251964590010175
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1031,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07108723651719485,
+      "ard_rmse": 0.6341840025674141,
+      "seconds": 7.158299922593869e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1032,
+      "model": "Bayes_circle",
+      "auc": 0.9103808658294779,
+      "probability_rmse": 0.07011989772541095,
+      "ard_rmse": 0.5789837940490898,
+      "seconds": 2.5032316249998985
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1032,
+      "model": "Nuclear_probability",
+      "auc": 0.9714763714474554,
+      "probability_rmse": 0.13495143948533908,
+      "ard_rmse": 0.23005675459013902,
+      "seconds": 0.15072658400094952
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1032,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0695249465436183,
+      "ard_rmse": 0.630817436140069,
+      "seconds": 6.945799759705551e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1033,
+      "model": "Bayes_circle",
+      "auc": 0.9097794513179128,
+      "probability_rmse": 0.06907449266096377,
+      "ard_rmse": 0.5890893565220987,
+      "seconds": 2.60766033300024
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1033,
+      "model": "Nuclear_probability",
+      "auc": 0.9670145239376009,
+      "probability_rmse": 0.13660120068181336,
+      "ard_rmse": 0.2059823303974768,
+      "seconds": 0.21593529199890327
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1033,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07001229813707313,
+      "ard_rmse": 0.6317689011374685,
+      "seconds": 7.362500036833808e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1034,
+      "model": "Bayes_circle",
+      "auc": 0.9194616014699697,
+      "probability_rmse": 0.06960333844788724,
+      "ard_rmse": 0.5519800210534815,
+      "seconds": 2.7918667500016454
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1034,
+      "model": "Nuclear_probability",
+      "auc": 0.9668592681144983,
+      "probability_rmse": 0.127630746453264,
+      "ard_rmse": 0.20064394052583695,
+      "seconds": 0.6137250840001798
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1034,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.06954527977438472,
+      "ard_rmse": 0.5792341531211811,
+      "seconds": 7.341699893004261e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1035,
+      "model": "Bayes_circle",
+      "auc": 0.9067522199487474,
+      "probability_rmse": 0.06706189473217264,
+      "ard_rmse": 0.6125047937998103,
+      "seconds": 2.5538117500000226
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1035,
+      "model": "Nuclear_probability",
+      "auc": 0.9725461371898528,
+      "probability_rmse": 0.1364911306242992,
+      "ard_rmse": 0.22418995765898594,
+      "seconds": 0.20850516700011212
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1035,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.0708069421180269,
+      "ard_rmse": 0.6581099975703439,
+      "seconds": 7.454099977621809e-05
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1036,
+      "model": "Bayes_circle",
+      "auc": 0.8465356152528303,
+      "probability_rmse": 0.07256252976771402,
+      "ard_rmse": 0.6037988670922013,
+      "seconds": 2.6970286249998026
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1036,
+      "model": "Nuclear_probability",
+      "auc": 0.9493103021953762,
+      "probability_rmse": 0.14603779313497306,
+      "ard_rmse": 0.21539507465674604,
+      "seconds": 0.1438035410028533
+    },
+    {
+      "n": 40,
+      "k": 8,
+      "seed": 1036,
+      "model": "Density",
+      "auc": 0.5,
+      "probability_rmse": 0.07231802092639884,
+      "ard_rmse": 0.6466758994542099,
+      "seconds": 7.433299833792262e-05
+    }
+  ],
+  "summary": [
+    {
+      "k": 4,
+      "model": "Bayes_circle",
+      "replicates": 40,
+      "auc_mean": 0.8374507300564693,
+      "auc_sd": 0.026333524136111428,
+      "probability_rmse_mean": 0.07041768757225621,
+      "probability_rmse_sd": 0.0012080061468113532,
+      "ard_rmse_mean": 0.8240308097037232,
+      "ard_rmse_sd": 0.05716611246737396,
+      "seconds_mean": 2.530593763474826,
+      "seconds_sd": 0.16634374706499166
+    },
+    {
+      "k": 4,
+      "model": "Nuclear_probability",
+      "replicates": 40,
+      "auc_mean": 0.8911303881807358,
+      "auc_sd": 0.021813925614398155,
+      "probability_rmse_mean": 0.1247060640534016,
+      "probability_rmse_sd": 0.007294014719121904,
+      "ard_rmse_mean": 0.1963938433887199,
+      "ard_rmse_sd": 0.011068584237167828,
+      "seconds_mean": 0.9021256584251205,
+      "seconds_sd": 0.5028232065564175
+    },
+    {
+      "k": 4,
+      "model": "Density",
+      "replicates": 40,
+      "auc_mean": 0.5,
+      "auc_sd": 0.0,
+      "probability_rmse_mean": 0.0712051539073102,
+      "probability_rmse_sd": 0.0012797952695398438,
+      "ard_rmse_mean": 0.8755949006954193,
+      "ard_rmse_sd": 0.06762316304858701,
+      "seconds_mean": 6.520722517961985e-05,
+      "seconds_sd": 5.264615012855197e-06
+    },
+    {
+      "k": 8,
+      "model": "Bayes_circle",
+      "replicates": 40,
+      "auc_mean": 0.8966278180350151,
+      "auc_sd": 0.022560087669966603,
+      "probability_rmse_mean": 0.06956228707265309,
+      "probability_rmse_sd": 0.0018872862284679296,
+      "ard_rmse_mean": 0.5799861648964225,
+      "ard_rmse_sd": 0.030568628571077495,
+      "seconds_mean": 2.5998068572503144,
+      "seconds_sd": 0.28707013761611905
+    },
+    {
+      "k": 8,
+      "model": "Nuclear_probability",
+      "replicates": 40,
+      "auc_mean": 0.967057679877376,
+      "auc_sd": 0.009117757716055315,
+      "probability_rmse_mean": 0.133041826870057,
+      "probability_rmse_sd": 0.007898159404073884,
+      "ard_rmse_mean": 0.21069985241171016,
+      "ard_rmse_sd": 0.009595918112588711,
+      "seconds_mean": 0.33589447500016834,
+      "seconds_sd": 0.25149545372127763
+    },
+    {
+      "k": 8,
+      "model": "Density",
+      "replicates": 40,
+      "auc_mean": 0.5,
+      "auc_sd": 0.0,
+      "probability_rmse_mean": 0.0712051539073102,
+      "probability_rmse_sd": 0.0012797952695398438,
+      "ard_rmse_mean": 0.6219973246649297,
+      "ard_rmse_sd": 0.038982456854570476,
+      "seconds_mean": 7.358954926530714e-05,
+      "seconds_sd": 1.3582214271471453e-05
+    }
+  ],
+  "diagnostics": [
+    {
+      "k": 4,
+      "seed": 101,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0063768475784711,
+          "ess_initial_positive": 270.4756978380029
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0001668122105987,
+          "ess_initial_positive": 289.63542067670875
+        },
+        "ard_mse": {
+          "split_rhat": 1.0003528514601707,
+          "ess_initial_positive": 298.44689434871503
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.33375,
+            0.63071875
+          ],
+          [
+            0.33,
+            0.63103125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.29836493952825416,
+            3.0
+          ],
+          [
+            0.32321488043857877,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2914,
+        "converged": true,
+        "primal_residual": 9.985699868152474e-07,
+        "dual_residual": 2.086914411702113e-07,
+        "objective": 20.145747140683454
+      }
+    },
+    {
+      "k": 4,
+      "seed": 202,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0034465338030654,
+          "ess_initial_positive": 250.60489478196484
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.002634802401322,
+          "ess_initial_positive": 366.4472949125873
+        },
+        "ard_mse": {
+          "split_rhat": 1.0036019997078856,
+          "ess_initial_positive": 359.65678130313245
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.36375,
+            0.67878125
+          ],
+          [
+            0.42625,
+            0.68234375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3232148804385789,
+            3.0
+          ],
+          [
+            0.2699717615152007,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 4746,
+        "converged": true,
+        "primal_residual": 9.995039905564365e-07,
+        "dual_residual": 9.349812750196274e-08,
+        "objective": 17.21163151850055
+      }
+    },
+    {
+      "k": 4,
+      "seed": 303,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0035898859491934,
+          "ess_initial_positive": 245.05054479125099
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0004922547833708,
+          "ess_initial_positive": 709.6314546057981
+        },
+        "ard_mse": {
+          "split_rhat": 1.0007132092155007,
+          "ess_initial_positive": 722.4907342735534
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.33875,
+            0.6998125
+          ],
+          [
+            0.37625,
+            0.70046875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.36442376007810184,
+            3.0
+          ],
+          [
+            0.3043923111237269,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 4710,
+        "converged": true,
+        "primal_residual": 9.990212023063963e-07,
+        "dual_residual": 1.0716360532101711e-07,
+        "objective": 15.566723112720016
+      }
+    },
+    {
+      "k": 4,
+      "seed": 404,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0076282070174005,
+          "ess_initial_positive": 319.57874530365194
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0001963324328313,
+          "ess_initial_positive": 744.7578162401388
+        },
+        "ard_mse": {
+          "split_rhat": 1.0007583945617113,
+          "ess_initial_positive": 762.9281145471451
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3175,
+            0.72578125
+          ],
+          [
+            0.31875,
+            0.7241875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.36442376007810184,
+            3.0
+          ],
+          [
+            0.3297442541400256,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1363,
+        "converged": true,
+        "primal_residual": 9.996887781184723e-07,
+        "dual_residual": 2.7119184529857896e-07,
+        "objective": 15.98976777183414
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1001,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9997900060744564,
+          "ess_initial_positive": 288.8054712795357
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.999865829483459,
+          "ess_initial_positive": 611.957517186585
+        },
+        "ard_mse": {
+          "split_rhat": 0.9997432532354922,
+          "ess_initial_positive": 559.9683338063049
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.35,
+            0.672375
+          ],
+          [
+            0.3125,
+            0.66159375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3105414437022672,
+            3.0
+          ],
+          [
+            0.3644237600781019,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 5103,
+        "converged": true,
+        "primal_residual": 9.996559166114308e-07,
+        "dual_residual": 1.2338056788569063e-07,
+        "objective": 20.992546083987556
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1002,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.005710646715766,
+          "ess_initial_positive": 233.34009846985896
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0000334256645163,
+          "ess_initial_positive": 695.7111100727236
+        },
+        "ard_mse": {
+          "split_rhat": 1.000042322229886,
+          "ess_initial_positive": 654.0211118492635
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.385,
+            0.700625
+          ],
+          [
+            0.275,
+            0.69675
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.29245691788684497,
+            3.0
+          ],
+          [
+            0.37929617586099035,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 7153,
+        "converged": true,
+        "primal_residual": 9.998942379688366e-07,
+        "dual_residual": 9.147536952363969e-09,
+        "objective": 17.89256076539152
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1003,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.99947679201378,
+          "ess_initial_positive": 302.84150859201134
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.9997514011175367,
+          "ess_initial_positive": 594.5613550640384
+        },
+        "ard_mse": {
+          "split_rhat": 0.9999559485181011,
+          "ess_initial_positive": 595.2693005941277
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3825,
+            0.69178125
+          ],
+          [
+            0.3525,
+            0.6940625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2983649395282542,
+            3.0
+          ],
+          [
+            0.32321488043857877,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 5675,
+        "converged": true,
+        "primal_residual": 9.997285915238698e-07,
+        "dual_residual": 3.647307274048885e-09,
+        "objective": 18.172017785325625
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1004,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.004619772413042,
+          "ess_initial_positive": 276.62246713134766
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0167617335779693,
+          "ess_initial_positive": 255.27793377703898
+        },
+        "ard_mse": {
+          "split_rhat": 1.017192136613043,
+          "ess_initial_positive": 247.30368272409598
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3825,
+            0.657875
+          ],
+          [
+            0.36375,
+            0.64090625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3232148804385788,
+            3.0
+          ],
+          [
+            0.33640552993977724,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 3296,
+        "converged": true,
+        "primal_residual": 9.989947518382787e-07,
+        "dual_residual": 1.3065767553000026e-07,
+        "objective": 16.315558716610862
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1005,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9989861926077581,
+          "ess_initial_positive": 301.7859293560427
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.999268005826441,
+          "ess_initial_positive": 539.9199106849713
+        },
+        "ard_mse": {
+          "split_rhat": 0.9991114553755763,
+          "ess_initial_positive": 516.7456771682216
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.385,
+            0.69515625
+          ],
+          [
+            0.4075,
+            0.6935
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3043923111237269,
+            3.0
+          ],
+          [
+            0.2983649395282541,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 3290,
+        "converged": true,
+        "primal_residual": 9.9996107829251e-07,
+        "dual_residual": 1.808331349631892e-07,
+        "objective": 17.012711490821346
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1006,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0033721854505215,
+          "ess_initial_positive": 342.3173763909696
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.000367479775375,
+          "ess_initial_positive": 615.2914847873091
+        },
+        "ard_mse": {
+          "split_rhat": 1.0004995651074415,
+          "ess_initial_positive": 597.3854199661365
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.39125,
+            0.69684375
+          ],
+          [
+            0.3875,
+            0.6958125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.31054144370226733,
+            3.0
+          ],
+          [
+            0.2983649395282541,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 10000,
+        "converged": false,
+        "primal_residual": 1.2051554447371112e-06,
+        "dual_residual": 7.1258063594539555e-09,
+        "objective": 15.863775560453789
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1007,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0118203171632651,
+          "ess_initial_positive": 216.18616909574575
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.000635115518742,
+          "ess_initial_positive": 606.4590662320015
+        },
+        "ard_mse": {
+          "split_rhat": 1.000288791582931,
+          "ess_initial_positive": 620.8010595077819
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3075,
+            0.67446875
+          ],
+          [
+            0.36125,
+            0.6788125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3572076861500148,
+            3.0
+          ],
+          [
+            0.29245691788684497,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 6758,
+        "converged": true,
+        "primal_residual": 9.998795438770554e-07,
+        "dual_residual": 2.9242483024184995e-09,
+        "objective": 18.705752654088403
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1008,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.021116100074978,
+          "ess_initial_positive": 273.9106283925456
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0017711821181352,
+          "ess_initial_positive": 302.8286373837781
+        },
+        "ard_mse": {
+          "split_rhat": 1.0007943597763447,
+          "ess_initial_positive": 314.0249909955918
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.38375,
+            0.63696875
+          ],
+          [
+            0.32,
+            0.6376875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.28098951811271883,
+            3.0
+          ],
+          [
+            0.3364055299397775,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 5962,
+        "converged": true,
+        "primal_residual": 9.99920383298736e-07,
+        "dual_residual": 1.1357233863979362e-07,
+        "objective": 19.294371797465487
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1009,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.004724062388836,
+          "ess_initial_positive": 364.4146181628765
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0079968667111003,
+          "ess_initial_positive": 628.2175864264735
+        },
+        "ard_mse": {
+          "split_rhat": 1.008995959801732,
+          "ess_initial_positive": 642.9864077919301
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.325,
+            0.71046875
+          ],
+          [
+            0.3375,
+            0.70828125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.39477554644608953,
+            3.0
+          ],
+          [
+            0.3792961758609904,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2750,
+        "converged": true,
+        "primal_residual": 9.97265308485423e-07,
+        "dual_residual": 2.1302572910341416e-07,
+        "objective": 16.156746583401954
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1010,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0044007077655492,
+          "ess_initial_positive": 294.3470950177366
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0002047877448454,
+          "ess_initial_positive": 484.06399658227923
+        },
+        "ard_mse": {
+          "split_rhat": 1.0010330361540911,
+          "ess_initial_positive": 466.2403257694634
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.35375,
+            0.69796875
+          ],
+          [
+            0.4225,
+            0.70653125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3432013724369719,
+            3.0
+          ],
+          [
+            0.26997176151520075,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 7074,
+        "converged": true,
+        "primal_residual": 9.998695005289279e-07,
+        "dual_residual": 3.2904218541399834e-08,
+        "objective": 16.79292640509653
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1011,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0028741546576743,
+          "ess_initial_positive": 277.1774411397309
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.999145627762923,
+          "ess_initial_positive": 518.9078219156097
+        },
+        "ard_mse": {
+          "split_rhat": 0.9994531158905147,
+          "ess_initial_positive": 503.72445032104866
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3475,
+            0.6936875
+          ],
+          [
+            0.35125,
+            0.688
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.32646324399107596,
+            3.0
+          ],
+          [
+            0.31681479699889636,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 10000,
+        "converged": false,
+        "primal_residual": 1.7984315782648331e-06,
+        "dual_residual": 8.616981258482996e-08,
+        "objective": 15.846022536952098
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1012,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0037876313403096,
+          "ess_initial_positive": 239.02228485656468
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0000520545530416,
+          "ess_initial_positive": 447.24365599857435
+        },
+        "ard_mse": {
+          "split_rhat": 1.0002845515889451,
+          "ess_initial_positive": 446.99088748723835
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.33625,
+            0.6649375
+          ],
+          [
+            0.37,
+            0.66934375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.364423760078102,
+            3.0
+          ],
+          [
+            0.3432013724369718,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1810,
+        "converged": true,
+        "primal_residual": 9.994009487690872e-07,
+        "dual_residual": 2.06568943914701e-07,
+        "objective": 17.77197929662952
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1013,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.005829171672393,
+          "ess_initial_positive": 300.97504833946346
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0047132007716146,
+          "ess_initial_positive": 583.0297183810096
+        },
+        "ard_mse": {
+          "split_rhat": 1.005436588912277,
+          "ess_initial_positive": 562.8622098163652
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3525,
+            0.69215625
+          ],
+          [
+            0.345,
+            0.69221875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3364055299397775,
+            3.0
+          ],
+          [
+            0.3105414437022674,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2549,
+        "converged": true,
+        "primal_residual": 9.978421575507679e-07,
+        "dual_residual": 2.3692616354066912e-07,
+        "objective": 18.659553656117783
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1014,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9998093761776903,
+          "ess_initial_positive": 348.57899036853007
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0094068125811264,
+          "ess_initial_positive": 364.67125841948683
+        },
+        "ard_mse": {
+          "split_rhat": 1.0096889479373026,
+          "ess_initial_positive": 347.27899793587585
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3925,
+            0.66559375
+          ],
+          [
+            0.36125,
+            0.661625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.30439231112372694,
+            3.0
+          ],
+          [
+            0.3105414437022672,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1686,
+        "converged": true,
+        "primal_residual": 2.404966822334467e-07,
+        "dual_residual": 9.99065347551897e-07,
+        "objective": 18.608007537099684
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1015,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0032947953036229,
+          "ess_initial_positive": 210.4606362901203
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0023638970852493,
+          "ess_initial_positive": 438.2962790711594
+        },
+        "ard_mse": {
+          "split_rhat": 1.0026338021430443,
+          "ess_initial_positive": 447.6765465608558
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3175,
+            0.693
+          ],
+          [
+            0.395,
+            0.6970625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3364055299397774,
+            3.0
+          ],
+          [
+            0.2809895181127187,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 8355,
+        "converged": true,
+        "primal_residual": 9.995065850095136e-07,
+        "dual_residual": 9.209679592068517e-08,
+        "objective": 16.6173247534214
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1016,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0006274616899045,
+          "ess_initial_positive": 338.27952631993105
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0019386561119412,
+          "ess_initial_positive": 333.1612109971246
+        },
+        "ard_mse": {
+          "split_rhat": 1.0011609347816959,
+          "ess_initial_positive": 350.3374898007955
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.40125,
+            0.62240625
+          ],
+          [
+            0.35375,
+            0.618125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.26462596246748754,
+            3.0
+          ],
+          [
+            0.28098951811271883,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2744,
+        "converged": true,
+        "primal_residual": 9.992605636484182e-07,
+        "dual_residual": 1.224304771141841e-07,
+        "objective": 21.31384818551004
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1017,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0029143978358064,
+          "ess_initial_positive": 337.78650581693705
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0004585324023758,
+          "ess_initial_positive": 516.8555239598284
+        },
+        "ard_mse": {
+          "split_rhat": 1.000173479606995,
+          "ess_initial_positive": 497.6235368016984
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.40125,
+            0.67315625
+          ],
+          [
+            0.38125,
+            0.6688125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2809895181127189,
+            3.0
+          ],
+          [
+            0.31054144370226733,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 6033,
+        "converged": true,
+        "primal_residual": 9.998574344756644e-07,
+        "dual_residual": 1.0864734382499603e-08,
+        "objective": 18.992233479313782
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1018,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0068727343629529,
+          "ess_initial_positive": 333.2730721762118
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.002100375156642,
+          "ess_initial_positive": 667.8123499268954
+        },
+        "ard_mse": {
+          "split_rhat": 1.0016784741503812,
+          "ess_initial_positive": 671.019652084461
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.32625,
+            0.7015625
+          ],
+          [
+            0.36875,
+            0.69515625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3572076861500149,
+            3.0
+          ],
+          [
+            0.2866658829120682,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 6897,
+        "converged": true,
+        "primal_residual": 9.99495434593628e-07,
+        "dual_residual": 5.578108170554914e-08,
+        "objective": 17.773905966017534
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1019,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0067883478038024,
+          "ess_initial_positive": 326.84731371335863
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.9997423836690584,
+          "ess_initial_positive": 465.8605331649247
+        },
+        "ard_mse": {
+          "split_rhat": 0.9999191656788693,
+          "ess_initial_positive": 465.13885623912864
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.4,
+            0.6888125
+          ],
+          [
+            0.29625,
+            0.6960625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.292456917886845,
+            3.0
+          ],
+          [
+            0.35013450005922037,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 10000,
+        "converged": false,
+        "primal_residual": 1.7982479113000674e-06,
+        "dual_residual": 2.087419659332941e-08,
+        "objective": 16.596119910821468
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1020,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0006320244080829,
+          "ess_initial_positive": 358.6498040834757
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.002119360040755,
+          "ess_initial_positive": 345.183824553175
+        },
+        "ard_mse": {
+          "split_rhat": 1.0017746180906826,
+          "ess_initial_positive": 328.8528918210277
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3325,
+            0.64728125
+          ],
+          [
+            0.3875,
+            0.65075
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.35013450005922025,
+            3.0
+          ],
+          [
+            0.29836493952825427,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 4677,
+        "converged": true,
+        "primal_residual": 9.988585549307525e-07,
+        "dual_residual": 1.6666400211234293e-07,
+        "objective": 20.480360615946744
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1021,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9993122990601702,
+          "ess_initial_positive": 279.02521967046397
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.999924501544766,
+          "ess_initial_positive": 313.8476640438941
+        },
+        "ard_mse": {
+          "split_rhat": 0.999638362004469,
+          "ess_initial_positive": 306.05716717057766
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.31875,
+            0.65440625
+          ],
+          [
+            0.3175,
+            0.65825
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3680862797563277,
+            3.0
+          ],
+          [
+            0.32974425414002567,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2816,
+        "converged": true,
+        "primal_residual": 9.98779297141819e-07,
+        "dual_residual": 2.106761934411428e-07,
+        "objective": 18.493680496291002
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1022,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.010547192791985,
+          "ess_initial_positive": 198.77062993327388
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0085076692245978,
+          "ess_initial_positive": 247.82688049202633
+        },
+        "ard_mse": {
+          "split_rhat": 1.0079165056348784,
+          "ess_initial_positive": 257.2041764530061
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.33875,
+            0.61553125
+          ],
+          [
+            0.37,
+            0.60821875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3432013724369718,
+            3.0
+          ],
+          [
+            0.2924569178868451,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 5575,
+        "converged": true,
+        "primal_residual": 9.996131517355184e-07,
+        "dual_residual": 8.873921208195848e-08,
+        "objective": 17.881109772686685
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1023,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.004204112821553,
+          "ess_initial_positive": 287.32087126812183
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0002655074327653,
+          "ess_initial_positive": 728.9503252582855
+        },
+        "ard_mse": {
+          "split_rhat": 1.0003581641418042,
+          "ess_initial_positive": 704.913274559504
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3575,
+            0.70971875
+          ],
+          [
+            0.33125,
+            0.7140625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.31054144370226744,
+            3.0
+          ],
+          [
+            0.3168147969988965,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 4782,
+        "converged": true,
+        "primal_residual": 9.996835140195492e-07,
+        "dual_residual": 1.1630975533576717e-08,
+        "objective": 16.691851487460028
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1024,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0036195877067389,
+          "ess_initial_positive": 355.115527886177
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0053519284386678,
+          "ess_initial_positive": 493.82806074723544
+        },
+        "ard_mse": {
+          "split_rhat": 1.004913537974715,
+          "ess_initial_positive": 506.5939196524939
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.36875,
+            0.70753125
+          ],
+          [
+            0.29875,
+            0.70621875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2809895181127188,
+            3.0
+          ],
+          [
+            0.40275054149409545,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 4268,
+        "converged": true,
+        "primal_residual": 9.99933704391767e-07,
+        "dual_residual": 4.665122304848499e-08,
+        "objective": 15.609764144485398
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1025,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.008316227795356,
+          "ess_initial_positive": 376.0641796869462
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.003650361850145,
+          "ess_initial_positive": 420.80105837837067
+        },
+        "ard_mse": {
+          "split_rhat": 1.003418666428278,
+          "ess_initial_positive": 419.9729155093829
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3575,
+            0.65040625
+          ],
+          [
+            0.3475,
+            0.6514375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2983649395282542,
+            3.0
+          ],
+          [
+            0.3364055299397773,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1784,
+        "converged": true,
+        "primal_residual": 9.992848206399464e-07,
+        "dual_residual": 2.9948542224847035e-07,
+        "objective": 22.24871394218783
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1026,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0046611266377656,
+          "ess_initial_positive": 275.5079988443891
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0028341583520812,
+          "ess_initial_positive": 355.9934208773731
+        },
+        "ard_mse": {
+          "split_rhat": 1.0033133659312066,
+          "ess_initial_positive": 361.99479651300635
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.38875,
+            0.64459375
+          ],
+          [
+            0.37875,
+            0.64821875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.28098951811271883,
+            3.0
+          ],
+          [
+            0.28098951811271883,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 10000,
+        "converged": false,
+        "primal_residual": 1.3070834982084358e-06,
+        "dual_residual": 1.5688023782105955e-08,
+        "objective": 18.489806834583646
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1027,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0142734260508735,
+          "ess_initial_positive": 309.7061180530904
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0039918647317616,
+          "ess_initial_positive": 286.5136488090744
+        },
+        "ard_mse": {
+          "split_rhat": 1.002940247139213,
+          "ess_initial_positive": 286.350607612125
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.32875,
+            0.63228125
+          ],
+          [
+            0.37375,
+            0.6395
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.34320137243697185,
+            3.0
+          ],
+          [
+            0.3232148804385787,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1451,
+        "converged": true,
+        "primal_residual": 9.979635996448445e-07,
+        "dual_residual": 2.1255400979801456e-07,
+        "objective": 17.22325409459225
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1028,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0067573967275603,
+          "ess_initial_positive": 268.9328013784992
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0041818312124668,
+          "ess_initial_positive": 449.53821690771787
+        },
+        "ard_mse": {
+          "split_rhat": 1.0035896301039784,
+          "ess_initial_positive": 455.21567984823224
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3075,
+            0.635875
+          ],
+          [
+            0.3025,
+            0.6325625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.38695846688040636,
+            3.0
+          ],
+          [
+            0.419187102898873,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 5750,
+        "converged": true,
+        "primal_residual": 9.996420371986862e-07,
+        "dual_residual": 3.6579851832660603e-09,
+        "objective": 18.98913469849642
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1029,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0058937450763514,
+          "ess_initial_positive": 203.42731464784882
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0097527336525627,
+          "ess_initial_positive": 538.3577353078664
+        },
+        "ard_mse": {
+          "split_rhat": 1.010884035540646,
+          "ess_initial_positive": 489.1762210800901
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.34625,
+            0.69853125
+          ],
+          [
+            0.345,
+            0.70753125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3232148804385788,
+            3.0
+          ],
+          [
+            0.33640552993977735,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 946,
+        "converged": true,
+        "primal_residual": 9.94963501255341e-07,
+        "dual_residual": 6.804800078801356e-07,
+        "objective": 17.79779701437117
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1030,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.00839309779082,
+          "ess_initial_positive": 274.70368018739305
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0034371507469353,
+          "ess_initial_positive": 543.8086892237346
+        },
+        "ard_mse": {
+          "split_rhat": 1.0041603885382784,
+          "ess_initial_positive": 509.02441149460293
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.405,
+            0.68734375
+          ],
+          [
+            0.3575,
+            0.694625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2699717615152007,
+            3.0
+          ],
+          [
+            0.29245691788684486,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2090,
+        "converged": true,
+        "primal_residual": 9.993926610925437e-07,
+        "dual_residual": 9.546344835924934e-08,
+        "objective": 16.555671427604246
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1031,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0050704322580526,
+          "ess_initial_positive": 354.2382947557038
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.9988386097910332,
+          "ess_initial_positive": 548.8803649591248
+        },
+        "ard_mse": {
+          "split_rhat": 0.9988715790465478,
+          "ess_initial_positive": 547.1190101456829
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.34875,
+            0.69809375
+          ],
+          [
+            0.38375,
+            0.69984375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.35013450005922025,
+            3.0
+          ],
+          [
+            0.3105414437022674,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 10000,
+        "converged": false,
+        "primal_residual": 2.569815847890026e-06,
+        "dual_residual": 9.067920007087679e-08,
+        "objective": 16.365923890182064
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1032,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.00343003519341,
+          "ess_initial_positive": 200.12065417893595
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.002108527965713,
+          "ess_initial_positive": 549.0323112737067
+        },
+        "ard_mse": {
+          "split_rhat": 1.0026427059451095,
+          "ess_initial_positive": 564.044602727128
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.39,
+            0.6899375
+          ],
+          [
+            0.31125,
+            0.690125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2699717615152007,
+            3.0
+          ],
+          [
+            0.36442376007810184,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 10000,
+        "converged": false,
+        "primal_residual": 1.9888201468977486e-06,
+        "dual_residual": 1.994336101422573e-08,
+        "objective": 17.417735312780728
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1033,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0057573140557279,
+          "ess_initial_positive": 231.9615795314295
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0056891944630009,
+          "ess_initial_positive": 276.0375630806678
+        },
+        "ard_mse": {
+          "split_rhat": 1.0040906373555276,
+          "ess_initial_positive": 279.2863117392356
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.39375,
+            0.6199375
+          ],
+          [
+            0.37,
+            0.62021875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2646259624674875,
+            3.0
+          ],
+          [
+            0.32321488043857877,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 4714,
+        "converged": true,
+        "primal_residual": 9.999985885450705e-07,
+        "dual_residual": 3.7050138745198587e-09,
+        "objective": 18.530653384525834
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1034,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0103277537966058,
+          "ess_initial_positive": 236.99967889757855
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.9994075962214749,
+          "ess_initial_positive": 464.61304426979376
+        },
+        "ard_mse": {
+          "split_rhat": 0.9992012261706971,
+          "ess_initial_positive": 478.1766905317184
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.34625,
+            0.71296875
+          ],
+          [
+            0.3325,
+            0.71296875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.32321488043857877,
+            3.0
+          ],
+          [
+            0.33640552993977735,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 3056,
+        "converged": true,
+        "primal_residual": 9.98068294577486e-07,
+        "dual_residual": 1.9283103433591853e-07,
+        "objective": 15.165872372631394
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1035,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0144641607532907,
+          "ess_initial_positive": 335.00888600488696
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0031245567464762,
+          "ess_initial_positive": 607.4404725264269
+        },
+        "ard_mse": {
+          "split_rhat": 1.0028358311415775,
+          "ess_initial_positive": 601.8653006301552
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3325,
+            0.689125
+          ],
+          [
+            0.32875,
+            0.6940625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3364055299397773,
+            3.0
+          ],
+          [
+            0.35013450005922025,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 7995,
+        "converged": true,
+        "primal_residual": 9.998128861426021e-07,
+        "dual_residual": 5.516147842332315e-09,
+        "objective": 17.68219135045364
+      }
+    },
+    {
+      "k": 4,
+      "seed": 1036,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0059211963677999,
+          "ess_initial_positive": 325.89504725795695
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0014200209181647,
+          "ess_initial_positive": 397.9938529943345
+        },
+        "ard_mse": {
+          "split_rhat": 1.0010717861421352,
+          "ess_initial_positive": 392.0751642883382
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3375,
+            0.6594375
+          ],
+          [
+            0.34,
+            0.6585
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3232148804385788,
+            3.0
+          ],
+          [
+            0.2983649395282542,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 4626,
+        "converged": true,
+        "primal_residual": 9.999307889930233e-07,
+        "dual_residual": 1.6629930591457649e-07,
+        "objective": 19.70118078155689
+      }
+    },
+    {
+      "k": 8,
+      "seed": 101,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0176361839789496,
+          "ess_initial_positive": 273.97961420011615
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.001351530168805,
+          "ess_initial_positive": 306.5799741539017
+        },
+        "ard_mse": {
+          "split_rhat": 1.0007384422621939,
+          "ess_initial_positive": 307.73890015502354
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.40625,
+            0.47525
+          ],
+          [
+            0.32375,
+            0.47928125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.254249830064281,
+            3.0
+          ],
+          [
+            0.3232148804385788,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1017,
+        "converged": true,
+        "primal_residual": 9.936272257290346e-07,
+        "dual_residual": 2.543977286621207e-07,
+        "objective": 29.3379127349788
+      }
+    },
+    {
+      "k": 8,
+      "seed": 202,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9992313482337644,
+          "ess_initial_positive": 271.0693884218096
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0030229658621506,
+          "ess_initial_positive": 365.882221728772
+        },
+        "ard_mse": {
+          "split_rhat": 1.0033630892876302,
+          "ess_initial_positive": 378.75855250543094
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3875,
+            0.57503125
+          ],
+          [
+            0.40375,
+            0.5760625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.29836493952825427,
+            3.0
+          ],
+          [
+            0.30439231112372694,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2700,
+        "converged": true,
+        "primal_residual": 9.995118604924522e-07,
+        "dual_residual": 4.020829068437754e-08,
+        "objective": 22.782641923902737
+      }
+    },
+    {
+      "k": 8,
+      "seed": 303,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0001744805872324,
+          "ess_initial_positive": 244.42454312896086
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.006420332545419,
+          "ess_initial_positive": 329.1187367212774
+        },
+        "ard_mse": {
+          "split_rhat": 1.0071439193795149,
+          "ess_initial_positive": 330.54154510164403
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.33875,
+            0.55565625
+          ],
+          [
+            0.38875,
+            0.5468125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.35013450005922025,
+            3.0
+          ],
+          [
+            0.30439231112372683,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 4059,
+        "converged": true,
+        "primal_residual": 9.995400226211808e-07,
+        "dual_residual": 2.951658777764564e-09,
+        "objective": 22.93986570164497
+      }
+    },
+    {
+      "k": 8,
+      "seed": 404,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0065673263815664,
+          "ess_initial_positive": 291.5165677639987
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0030271174744962,
+          "ess_initial_positive": 543.5970676974898
+        },
+        "ard_mse": {
+          "split_rhat": 1.0030442663480563,
+          "ess_initial_positive": 529.9729687967153
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.35,
+            0.59246875
+          ],
+          [
+            0.3325,
+            0.5893125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3168147969988964,
+            3.0
+          ],
+          [
+            0.32321488043857877,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1451,
+        "converged": true,
+        "primal_residual": 9.95957890094468e-07,
+        "dual_residual": 2.2570322807827598e-07,
+        "objective": 23.72707496732334
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1001,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.004607592800447,
+          "ess_initial_positive": 273.34699352966226
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.006485051827903,
+          "ess_initial_positive": 254.38741810739586
+        },
+        "ard_mse": {
+          "split_rhat": 1.0086332273700214,
+          "ess_initial_positive": 247.75306122952352
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.32875,
+            0.52021875
+          ],
+          [
+            0.335,
+            0.5171875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3297442541400257,
+            3.0
+          ],
+          [
+            0.34320137243697174,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2064,
+        "converged": true,
+        "primal_residual": 9.988283332733797e-07,
+        "dual_residual": 2.9250483482106055e-07,
+        "objective": 31.266784982313517
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1002,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0050973645173638,
+          "ess_initial_positive": 237.6605021062446
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0142609477402524,
+          "ess_initial_positive": 337.44461963510605
+        },
+        "ard_mse": {
+          "split_rhat": 1.0160109295433257,
+          "ess_initial_positive": 341.50659374840444
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.375,
+            0.5030625
+          ],
+          [
+            0.27875,
+            0.5114375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.292456917886845,
+            3.0
+          ],
+          [
+            0.3869584668804064,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 695,
+        "converged": true,
+        "primal_residual": 9.89924581614515e-07,
+        "dual_residual": 5.294051242351323e-07,
+        "objective": 27.849267040581488
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1003,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0016170217776816,
+          "ess_initial_positive": 262.9115551417852
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0114779651198318,
+          "ess_initial_positive": 334.7842644154841
+        },
+        "ard_mse": {
+          "split_rhat": 1.0104698458643522,
+          "ess_initial_positive": 354.2257690641588
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.35125,
+            0.54521875
+          ],
+          [
+            0.335,
+            0.5431875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.33640552993977735,
+            3.0
+          ],
+          [
+            0.32321488043857877,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 573,
+        "converged": true,
+        "primal_residual": 9.993399649960638e-07,
+        "dual_residual": 4.2025725929233467e-07,
+        "objective": 27.10192196593044
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1004,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0017794233383412,
+          "ess_initial_positive": 371.8693465762317
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0042737336008765,
+          "ess_initial_positive": 309.32169857996234
+        },
+        "ard_mse": {
+          "split_rhat": 1.004701584524344,
+          "ess_initial_positive": 314.42391203051375
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.40125,
+            0.548
+          ],
+          [
+            0.35625,
+            0.54034375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2983649395282541,
+            3.0
+          ],
+          [
+            0.3501345000592203,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1105,
+        "converged": true,
+        "primal_residual": 9.99305595182688e-07,
+        "dual_residual": 3.071425103251203e-07,
+        "objective": 23.50826224554301
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1005,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0049106953485634,
+          "ess_initial_positive": 306.2493180609743
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.001535128722171,
+          "ess_initial_positive": 396.0482878336819
+        },
+        "ard_mse": {
+          "split_rhat": 1.0012439711544707,
+          "ess_initial_positive": 375.3334668906541
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.365,
+            0.58071875
+          ],
+          [
+            0.36,
+            0.58615625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3168147969988964,
+            3.0
+          ],
+          [
+            0.32974425414002595,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1218,
+        "converged": true,
+        "primal_residual": 9.971692942888469e-07,
+        "dual_residual": 2.6269950501571145e-07,
+        "objective": 22.709105668676877
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1006,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9991842934297558,
+          "ess_initial_positive": 297.00023554084015
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0018083519098364,
+          "ess_initial_positive": 314.3161459035758
+        },
+        "ard_mse": {
+          "split_rhat": 1.0021932144482077,
+          "ess_initial_positive": 311.4145881763663
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.42375,
+            0.53365625
+          ],
+          [
+            0.40125,
+            0.53325
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2754255528671915,
+            3.0
+          ],
+          [
+            0.3043923111237269,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 3781,
+        "converged": true,
+        "primal_residual": 9.999678235497557e-07,
+        "dual_residual": 1.5379168733147923e-07,
+        "objective": 24.019624473495004
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1007,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0020397296662342,
+          "ess_initial_positive": 254.36880856756073
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0004479518652831,
+          "ess_initial_positive": 358.1629408554918
+        },
+        "ard_mse": {
+          "split_rhat": 1.0000603803444863,
+          "ess_initial_positive": 348.3401124163269
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.32125,
+            0.52646875
+          ],
+          [
+            0.3975,
+            0.52390625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.35013450005922025,
+            3.0
+          ],
+          [
+            0.28098951811271883,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1265,
+        "converged": true,
+        "primal_residual": 9.961298350751934e-07,
+        "dual_residual": 2.5709301612824054e-07,
+        "objective": 28.560697988908565
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1008,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0080548403311784,
+          "ess_initial_positive": 308.8740552305125
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.002329996526787,
+          "ess_initial_positive": 296.73685451104586
+        },
+        "ard_mse": {
+          "split_rhat": 1.003675148204288,
+          "ess_initial_positive": 290.7471380950216
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.375,
+            0.4889375
+          ],
+          [
+            0.34125,
+            0.49903125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2924569178868451,
+            3.0
+          ],
+          [
+            0.3105414437022673,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 794,
+        "converged": true,
+        "primal_residual": 9.97470504678533e-07,
+        "dual_residual": 4.3446327588130216e-07,
+        "objective": 30.182735408038425
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1009,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0082232545198224,
+          "ess_initial_positive": 359.13367340222976
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.000337414283648,
+          "ess_initial_positive": 659.4742916751007
+        },
+        "ard_mse": {
+          "split_rhat": 1.000877744962608,
+          "ess_initial_positive": 651.227711053723
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.32625,
+            0.59725
+          ],
+          [
+            0.37,
+            0.5966875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.38695846688040647,
+            3.0
+          ],
+          [
+            0.3297442541400258,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 3995,
+        "converged": true,
+        "primal_residual": 9.999977115019524e-07,
+        "dual_residual": 2.4543102780827165e-09,
+        "objective": 23.42415073565509
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1010,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0141921821925604,
+          "ess_initial_positive": 304.04473603504886
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0001554254461442,
+          "ess_initial_positive": 323.3205732163781
+        },
+        "ard_mse": {
+          "split_rhat": 1.0009863896527553,
+          "ess_initial_positive": 333.7247110812137
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.37625,
+            0.545625
+          ],
+          [
+            0.42375,
+            0.5539375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3168147969988964,
+            3.0
+          ],
+          [
+            0.2593860173331544,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1563,
+        "converged": true,
+        "primal_residual": 9.979662194267074e-07,
+        "dual_residual": 2.5841385653369233e-07,
+        "objective": 24.87572812214178
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1011,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.004376324351168,
+          "ess_initial_positive": 306.79149872823524
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0025734250632767,
+          "ess_initial_positive": 438.4153811956664
+        },
+        "ard_mse": {
+          "split_rhat": 1.0028675943981744,
+          "ess_initial_positive": 411.25371722621884
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.30875,
+            0.5688125
+          ],
+          [
+            0.3675,
+            0.55821875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.36442376007810195,
+            3.0
+          ],
+          [
+            0.2924569178868449,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2606,
+        "converged": true,
+        "primal_residual": 9.993243282300572e-07,
+        "dual_residual": 2.2423800988925275e-07,
+        "objective": 24.363585210851564
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1012,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0059002466679792,
+          "ess_initial_positive": 275.5659798140341
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.005190369794653,
+          "ess_initial_positive": 286.4115670800216
+        },
+        "ard_mse": {
+          "split_rhat": 1.0061290373017981,
+          "ess_initial_positive": 299.87093595618654
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.32125,
+            0.53559375
+          ],
+          [
+            0.41875,
+            0.52796875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.40275054149409556,
+            3.0
+          ],
+          [
+            0.30745150470965626,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1880,
+        "converged": true,
+        "primal_residual": 9.98340731220912e-07,
+        "dual_residual": 2.163735110945326e-07,
+        "objective": 25.116141350576864
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1013,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0010069561554094,
+          "ess_initial_positive": 242.53159351563573
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0000100978915267,
+          "ess_initial_positive": 398.0303678721748
+        },
+        "ard_mse": {
+          "split_rhat": 1.0004717575544306,
+          "ess_initial_positive": 417.43509953038784
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.33125,
+            0.56490625
+          ],
+          [
+            0.29625,
+            0.56621875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3644237600781019,
+            3.0
+          ],
+          [
+            0.3792961758609904,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1011,
+        "converged": true,
+        "primal_residual": 9.989763568369421e-07,
+        "dual_residual": 3.4257064919842663e-07,
+        "objective": 24.914607155169275
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1014,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0016133194474426,
+          "ess_initial_positive": 321.15480143703377
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.014186102023863,
+          "ess_initial_positive": 255.46796724564044
+        },
+        "ard_mse": {
+          "split_rhat": 1.0144559483512068,
+          "ess_initial_positive": 270.091988468094
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.40375,
+            0.49196875
+          ],
+          [
+            0.3525,
+            0.499625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.292456917886845,
+            3.0
+          ],
+          [
+            0.3168147969988964,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 789,
+        "converged": true,
+        "primal_residual": 9.913682090736774e-07,
+        "dual_residual": 4.552090073217123e-07,
+        "objective": 27.954090066315604
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1015,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0005235351076194,
+          "ess_initial_positive": 266.3831878633269
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0092680612733262,
+          "ess_initial_positive": 366.42719270653544
+        },
+        "ard_mse": {
+          "split_rhat": 1.0050696717429415,
+          "ess_initial_positive": 372.8746949619166
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.31875,
+            0.5434375
+          ],
+          [
+            0.47375,
+            0.53321875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3501345000592203,
+            3.0
+          ],
+          [
+            0.23470217419836217,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1303,
+        "converged": true,
+        "primal_residual": 9.96487345174827e-07,
+        "dual_residual": 3.053742807865474e-07,
+        "objective": 23.658273600304504
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1016,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0155314916306024,
+          "ess_initial_positive": 223.05364144063873
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0104271246584542,
+          "ess_initial_positive": 275.4836447362008
+        },
+        "ard_mse": {
+          "split_rhat": 1.0139657904845696,
+          "ess_initial_positive": 287.6778975574589
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.37125,
+            0.49275
+          ],
+          [
+            0.40125,
+            0.48490625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.26997176151520075,
+            3.0
+          ],
+          [
+            0.24921534611747628,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1435,
+        "converged": true,
+        "primal_residual": 9.997683364277843e-07,
+        "dual_residual": 3.2508326259759373e-07,
+        "objective": 28.980815733324356
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1017,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0065217264730508,
+          "ess_initial_positive": 344.41529500686437
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.009307566470108,
+          "ess_initial_positive": 295.9555122271117
+        },
+        "ard_mse": {
+          "split_rhat": 1.0064984140447675,
+          "ess_initial_positive": 293.5572370973789
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.37,
+            0.51771875
+          ],
+          [
+            0.34,
+            0.514625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3168147969988965,
+            3.0
+          ],
+          [
+            0.3168147969988965,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 3578,
+        "converged": true,
+        "primal_residual": 9.998052128270667e-07,
+        "dual_residual": 5.31263734861734e-09,
+        "objective": 28.09366195539032
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1018,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.000428605020254,
+          "ess_initial_positive": 332.07012371736016
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0109069447720092,
+          "ess_initial_positive": 351.31960116406543
+        },
+        "ard_mse": {
+          "split_rhat": 1.0137550035359222,
+          "ess_initial_positive": 336.3788959029886
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3475,
+            0.57534375
+          ],
+          [
+            0.3275,
+            0.56165625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.36442376007810207,
+            3.0
+          ],
+          [
+            0.3501345000592204,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1289,
+        "converged": true,
+        "primal_residual": 9.970980676531272e-07,
+        "dual_residual": 2.2522624964460654e-07,
+        "objective": 25.40053982411587
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1019,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0053815282931193,
+          "ess_initial_positive": 310.9943236161357
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.000291950738648,
+          "ess_initial_positive": 458.953276900609
+        },
+        "ard_mse": {
+          "split_rhat": 0.9999042146145111,
+          "ess_initial_positive": 464.1763389095777
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.375,
+            0.5616875
+          ],
+          [
+            0.29125,
+            0.57071875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.298364939528254,
+            3.0
+          ],
+          [
+            0.37929617586099046,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1593,
+        "converged": true,
+        "primal_residual": 9.960568059898363e-07,
+        "dual_residual": 1.7668829570253065e-07,
+        "objective": 24.299982532991194
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1020,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0005873457341437,
+          "ess_initial_positive": 301.6200279565021
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0183182856001252,
+          "ess_initial_positive": 220.6907929190548
+        },
+        "ard_mse": {
+          "split_rhat": 1.0109977047504775,
+          "ess_initial_positive": 249.9640153449851
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.34125,
+            0.5020625
+          ],
+          [
+            0.35625,
+            0.50546875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3432013724369718,
+            3.0
+          ],
+          [
+            0.32321488043857866,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 3849,
+        "converged": true,
+        "primal_residual": 9.990929201693732e-07,
+        "dual_residual": 3.232444128427477e-09,
+        "objective": 28.20491467463418
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1021,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0024884663611866,
+          "ess_initial_positive": 272.1775874569611
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.998879234287822,
+          "ess_initial_positive": 350.32379740910034
+        },
+        "ard_mse": {
+          "split_rhat": 0.9991546152076495,
+          "ess_initial_positive": 316.5558815239269
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.355,
+            0.5145625
+          ],
+          [
+            0.315,
+            0.5154375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.33640552993977735,
+            3.0
+          ],
+          [
+            0.35720768615001475,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 6874,
+        "converged": true,
+        "primal_residual": 9.997037127141397e-07,
+        "dual_residual": 8.686681887014718e-09,
+        "objective": 29.383967632186618
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1022,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0040913086816114,
+          "ess_initial_positive": 234.3686902354228
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0004273300171678,
+          "ess_initial_positive": 324.5879903457271
+        },
+        "ard_mse": {
+          "split_rhat": 0.9993503522142143,
+          "ess_initial_positive": 337.8496999549961
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.33125,
+            0.51565625
+          ],
+          [
+            0.34375,
+            0.5164375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3232148804385787,
+            3.0
+          ],
+          [
+            0.31054144370226733,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2809,
+        "converged": true,
+        "primal_residual": 9.987440311340891e-07,
+        "dual_residual": 1.6495996235639246e-07,
+        "objective": 28.273009535642217
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1023,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9995442493264207,
+          "ess_initial_positive": 314.0453377692235
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.007821997278333,
+          "ess_initial_positive": 342.79706394743994
+        },
+        "ard_mse": {
+          "split_rhat": 1.0068355274442162,
+          "ess_initial_positive": 329.2266456887907
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.35625,
+            0.5651875
+          ],
+          [
+            0.3475,
+            0.56728125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.304392311123727,
+            3.0
+          ],
+          [
+            0.3105414437022673,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 938,
+        "converged": true,
+        "primal_residual": 9.904442146033076e-07,
+        "dual_residual": 4.1163640242625813e-07,
+        "objective": 24.869607907127026
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1024,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0211420921060868,
+          "ess_initial_positive": 333.0447809259412
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0007316530518915,
+          "ess_initial_positive": 298.402327490912
+        },
+        "ard_mse": {
+          "split_rhat": 1.000839235092338,
+          "ess_initial_positive": 302.6301753251984
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.38625,
+            0.56696875
+          ],
+          [
+            0.28875,
+            0.56315625
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.29836493952825405,
+            3.0
+          ],
+          [
+            0.37178560836926866,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1834,
+        "converged": true,
+        "primal_residual": 9.975641586326214e-07,
+        "dual_residual": 8.824091247722343e-08,
+        "objective": 24.969961358067266
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1025,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9996358300278085,
+          "ess_initial_positive": 276.9248077648542
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.011433252951712,
+          "ess_initial_positive": 229.66696260039598
+        },
+        "ard_mse": {
+          "split_rhat": 1.0076065706674728,
+          "ess_initial_positive": 253.17232249432584
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3525,
+            0.50371875
+          ],
+          [
+            0.35125,
+            0.48921875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.29836493952825416,
+            3.0
+          ],
+          [
+            0.34320137243697185,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 536,
+        "converged": true,
+        "primal_residual": 9.983738550634357e-07,
+        "dual_residual": 6.064338857473134e-07,
+        "objective": 32.128039255836455
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1026,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.00699421151945,
+          "ess_initial_positive": 260.4576314039674
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0044214393751691,
+          "ess_initial_positive": 325.250109001205
+        },
+        "ard_mse": {
+          "split_rhat": 1.0045128259751746,
+          "ess_initial_positive": 340.49211168167716
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.385,
+            0.53021875
+          ],
+          [
+            0.4075,
+            0.54025
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.292456917886845,
+            3.0
+          ],
+          [
+            0.25938601733315436,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1105,
+        "converged": true,
+        "primal_residual": 9.96297601723171e-07,
+        "dual_residual": 2.7077359220483643e-07,
+        "objective": 26.084668449841192
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1027,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.01048540463513,
+          "ess_initial_positive": 316.8493689649816
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.001631554163118,
+          "ess_initial_positive": 293.1600629470217
+        },
+        "ard_mse": {
+          "split_rhat": 1.0025071039590918,
+          "ess_initial_positive": 296.528326803726
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.365,
+            0.48709375
+          ],
+          [
+            0.3375,
+            0.48728125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3168147969988965,
+            3.0
+          ],
+          [
+            0.33640552993977746,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 601,
+        "converged": true,
+        "primal_residual": 1.0947170531619591e-07,
+        "dual_residual": 9.986552537617641e-07,
+        "objective": 30.07793443644828
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1028,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0088695732286772,
+          "ess_initial_positive": 262.46321840554026
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0134524204451854,
+          "ess_initial_positive": 244.47746868288996
+        },
+        "ard_mse": {
+          "split_rhat": 1.0156721923224337,
+          "ess_initial_positive": 246.98916913336626
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3475,
+            0.47328125
+          ],
+          [
+            0.33,
+            0.4766875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3572076861500148,
+            3.0
+          ],
+          [
+            0.3869584668804064,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2275,
+        "converged": true,
+        "primal_residual": 9.989915835743681e-07,
+        "dual_residual": 4.860725167078483e-09,
+        "objective": 29.396774548909853
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1029,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0183511687428475,
+          "ess_initial_positive": 237.7067280932492
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0009564789163274,
+          "ess_initial_positive": 256.89111692952827
+        },
+        "ard_mse": {
+          "split_rhat": 1.0001577715498058,
+          "ess_initial_positive": 269.92990024418407
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.405,
+            0.5341875
+          ],
+          [
+            0.37,
+            0.53503125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2646259624674875,
+            3.0
+          ],
+          [
+            0.2983649395282541,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1325,
+        "converged": true,
+        "primal_residual": 9.998256356013945e-07,
+        "dual_residual": 3.3590119356447496e-07,
+        "objective": 28.841011873088778
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1030,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.004297237539609,
+          "ess_initial_positive": 279.2359424839992
+        },
+        "poisson_loglik": {
+          "split_rhat": 0.9988308723319035,
+          "ess_initial_positive": 456.81304836243925
+        },
+        "ard_mse": {
+          "split_rhat": 0.9988236428416309,
+          "ess_initial_positive": 484.04148853790093
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3125,
+            0.5694375
+          ],
+          [
+            0.34,
+            0.562375
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3501345000592204,
+            3.0
+          ],
+          [
+            0.3297442541400257,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 880,
+        "converged": true,
+        "primal_residual": 9.960243243017426e-07,
+        "dual_residual": 3.3939071783575405e-07,
+        "objective": 24.809281291953184
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1031,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 0.9992491449501265,
+          "ess_initial_positive": 341.8467525947935
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.00573715352772,
+          "ess_initial_positive": 339.6264857234439
+        },
+        "ard_mse": {
+          "split_rhat": 1.005777891353113,
+          "ess_initial_positive": 342.70342083794816
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3375,
+            0.53915625
+          ],
+          [
+            0.40875,
+            0.53603125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.34320137243697196,
+            3.0
+          ],
+          [
+            0.2754255528671915,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 2622,
+        "converged": true,
+        "primal_residual": 9.994009333706686e-07,
+        "dual_residual": 4.575827886979841e-09,
+        "objective": 26.864979731250273
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1032,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.004701159600076,
+          "ess_initial_positive": 251.1116267772117
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0030981118479825,
+          "ess_initial_positive": 214.32403861751968
+        },
+        "ard_mse": {
+          "split_rhat": 1.0045562653762237,
+          "ess_initial_positive": 217.7846529950281
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.35625,
+            0.49675
+          ],
+          [
+            0.3175,
+            0.498875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2866658829120681,
+            3.0
+          ],
+          [
+            0.36442376007810173,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 854,
+        "converged": true,
+        "primal_residual": 9.988251904221267e-07,
+        "dual_residual": 3.6140152899619416e-07,
+        "objective": 29.447876792612504
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1033,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0074434534115395,
+          "ess_initial_positive": 211.34649176905938
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0151853733404326,
+          "ess_initial_positive": 204.77601430740614
+        },
+        "ard_mse": {
+          "split_rhat": 1.0134958565463408,
+          "ess_initial_positive": 224.87265027449143
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.40375,
+            0.529125
+          ],
+          [
+            0.36875,
+            0.5298125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.2593860173331544,
+            3.0
+          ],
+          [
+            0.3432013724369718,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1301,
+        "converged": true,
+        "primal_residual": 9.95255865239762e-07,
+        "dual_residual": 2.1702239701604765e-07,
+        "objective": 24.76711657319388
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1034,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0045348771954055,
+          "ess_initial_positive": 271.79724610964973
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0033192102534776,
+          "ess_initial_positive": 505.4736101966992
+        },
+        "ard_mse": {
+          "split_rhat": 1.0036624931296707,
+          "ess_initial_positive": 488.22016863742476
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.32625,
+            0.5909375
+          ],
+          [
+            0.32625,
+            0.58503125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3501345000592203,
+            3.0
+          ],
+          [
+            0.35720768615001475,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 3438,
+        "converged": true,
+        "primal_residual": 9.999531048198208e-07,
+        "dual_residual": 2.8082524420021508e-09,
+        "objective": 23.809432410074457
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1035,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0047509809587234,
+          "ess_initial_positive": 367.68517699795893
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0098773519967355,
+          "ess_initial_positive": 396.9255002205335
+        },
+        "ard_mse": {
+          "split_rhat": 1.0111840136886152,
+          "ess_initial_positive": 353.4386334106918
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.33625,
+            0.52240625
+          ],
+          [
+            0.30625,
+            0.524875
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3232148804385787,
+            3.0
+          ],
+          [
+            0.3644237600781018,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 1192,
+        "converged": true,
+        "primal_residual": 9.956767774942803e-07,
+        "dual_residual": 2.329372442143717e-07,
+        "objective": 29.593285284601496
+      }
+    },
+    {
+      "k": 8,
+      "seed": 1036,
+      "bayes": {
+        "alpha": {
+          "split_rhat": 1.0019525468178452,
+          "ess_initial_positive": 292.8097803099922
+        },
+        "poisson_loglik": {
+          "split_rhat": 1.0031617344750943,
+          "ess_initial_positive": 324.8762971562557
+        },
+        "ard_mse": {
+          "split_rhat": 1.0036697898328835,
+          "ess_initial_positive": 342.11212642779816
+        },
+        "screen_pass": true,
+        "acceptance_alpha_angle": [
+          [
+            0.3375,
+            0.5346875
+          ],
+          [
+            0.3925,
+            0.53953125
+          ]
+        ],
+        "final_proposal_scales": [
+          [
+            0.3232148804385788,
+            3.0
+          ],
+          [
+            0.2492153461174762,
+            3.0
+          ]
+        ]
+      },
+      "nuclear": {
+        "iterations": 822,
+        "converged": true,
+        "primal_residual": 9.99219917345947e-07,
+        "dual_residual": 3.4759804734451194e-07,
+        "objective": 28.09103026025077
+      }
+    }
+  ]
+}
