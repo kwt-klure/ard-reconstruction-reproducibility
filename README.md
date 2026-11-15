@@ -6,6 +6,8 @@ This repository contains replication materials for two studies by Yen-hsuan Tsen
 
 The version 1.0.0 package covers the exploratory circular sample, fresh circular samples at three densities, and a matched stochastic blockmodel. Its reproduction guide explains how to generate the ten tables and two figures from saved fitted matrices, and how to regenerate the synthetic graphs, refit the estimators and recompute the conditional benchmarks. [Reproduction guide](count-constraints/README.md) · [Download the versioned release](https://github.com/kwt-klure/ard-reconstruction-reproducibility/releases/tag/count-constraints-v1.0.0)
 
+The same release is permanently archived and citable on Zenodo. [Version 1.0.0 DOI](https://doi.org/10.5281/zenodo.24245598)
+
 The original Python code is available under MIT. The original synthetic data, simulation outputs, documentation and table and figure materials are available under CC BY 4.0. [License text and scope](count-constraints/LICENSE.md)
 
 ## Edge Ranking and Probability Estimation from Roster-Based Aggregated Relational Data
